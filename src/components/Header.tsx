@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Mail, MapPin, Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
+import { CONTACT, SERVICE_LOCATIONS } from "@/config/site";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -9,6 +10,10 @@ const navLinks = [
     children: [
       { to: "/used-tv-buyer-dubai", label: "Used TV Buyer in Dubai" },
       { to: "/used-tv-seller-dubai", label: "Used TV Seller in Dubai" },
+      ...SERVICE_LOCATIONS.flatMap((loc) => [
+        { to: `/used-tv-buyer-${loc.slug}`, label: `Used TV Buyer in ${loc.name}` },
+        { to: `/used-tv-seller-${loc.slug}`, label: `Used TV Seller in ${loc.name}` },
+      ]),
     ],
   },
   { to: "/blogs", label: "Blogs" },
@@ -27,15 +32,15 @@ export default function Header() {
       <div className="hero-gradient text-primary-foreground text-sm py-2">
         <div className="container flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-4 flex-wrap">
-            <a href="tel:+971501234567" className="flex items-center gap-1 hover:underline">
-              <Phone className="w-3.5 h-3.5" /> +971 50 123 4567
+            <a href={`tel:${CONTACT.phone}`} className="flex items-center gap-1 hover:underline">
+              <Phone className="w-3.5 h-3.5" /> {CONTACT.phoneDisplay}
             </a>
-            <a href="mailto:info@usedtvdubai.ae" className="flex items-center gap-1 hover:underline">
-              <Mail className="w-3.5 h-3.5" /> info@usedtvdubai.ae
+            <a href={`mailto:${CONTACT.email}`} className="flex items-center gap-1 hover:underline">
+              <Mail className="w-3.5 h-3.5" /> {CONTACT.email}
             </a>
           </div>
           <div className="flex items-center gap-1 text-xs">
-            <MapPin className="w-3.5 h-3.5" /> Al Naif Road, Deira, Dubai
+            <MapPin className="w-3.5 h-3.5" /> {CONTACT.addressShort}
           </div>
         </div>
       </div>
@@ -56,12 +61,12 @@ export default function Header() {
                   <button className="flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors">
                     {link.label} <ChevronDown className="w-3.5 h-3.5" />
                   </button>
-                  <div className="absolute top-full left-0 mt-1 bg-card border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all min-w-[220px]">
+                  <div className="absolute top-full left-0 mt-1 bg-card border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all min-w-[250px] max-h-[400px] overflow-y-auto z-50">
                     {link.children.map((child) => (
                       <Link
                         key={child.to}
                         to={child.to}
-                        className="block px-4 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors first:rounded-t-lg last:rounded-b-lg"
+                        className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors first:rounded-t-lg last:rounded-b-lg"
                       >
                         {child.label}
                       </Link>
@@ -82,7 +87,7 @@ export default function Header() {
                 </Link>
               )
             )}
-            <a href="tel:+971501234567" className="ml-3 inline-flex items-center gap-2 px-4 py-2 rounded-lg hero-gradient text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
+            <a href={`tel:${CONTACT.phone}`} className="ml-3 inline-flex items-center gap-2 px-4 py-2 rounded-lg hero-gradient text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
               <Phone className="w-4 h-4" /> Call Now
             </a>
           </nav>
@@ -95,7 +100,7 @@ export default function Header() {
 
         {/* Mobile nav */}
         {mobileOpen && (
-          <div className="md:hidden border-t bg-card pb-4">
+          <div className="md:hidden border-t bg-card pb-4 max-h-[70vh] overflow-y-auto">
             {navLinks.map((link) =>
               link.children ? (
                 <div key={link.label}>
@@ -131,7 +136,7 @@ export default function Header() {
               )
             )}
             <div className="px-6 pt-2">
-              <a href="tel:+971501234567" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg hero-gradient text-primary-foreground text-sm font-semibold">
+              <a href={`tel:${CONTACT.phone}`} className="inline-flex items-center gap-2 px-4 py-2 rounded-lg hero-gradient text-primary-foreground text-sm font-semibold">
                 <Phone className="w-4 h-4" /> Call Now
               </a>
             </div>
