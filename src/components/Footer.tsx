@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
+import { CONTACT, SERVICE_LOCATIONS } from "@/config/site";
 
 const footerLinks = [
   {
@@ -14,8 +15,11 @@ const footerLinks = [
   {
     title: "Services",
     links: [
-      { to: "/used-tv-buyer-dubai", label: "Used TV Buyer in Dubai" },
-      { to: "/used-tv-seller-dubai", label: "Used TV Seller in Dubai" },
+      { to: "/used-tv-buyer-dubai", label: "Used TV Buyer Dubai" },
+      { to: "/used-tv-seller-dubai", label: "Used TV Seller Dubai" },
+      ...SERVICE_LOCATIONS.slice(0, 4).flatMap((loc) => [
+        { to: `/used-tv-buyer-${loc.slug}`, label: `TV Buyer ${loc.name}` },
+      ]),
     ],
   },
   {
@@ -46,7 +50,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-2 text-sm opacity-80">
               <Shield className="w-4 h-4 text-accent" /> Licensed & Verified Business
             </div>
-            <p className="text-xs opacity-50 mt-4">Owner: Hassan Jamil</p>
+            <p className="text-xs opacity-50 mt-4">Owner: {CONTACT.owner}</p>
           </div>
 
           {/* Link columns */}
@@ -68,14 +72,14 @@ export default function Footer() {
 
         {/* Contact strip */}
         <div className="mt-12 pt-8 border-t border-background/10 flex flex-wrap gap-6 text-sm opacity-70">
-          <a href="tel:+971501234567" className="flex items-center gap-2 hover:text-accent"><Phone className="w-4 h-4" /> +971 50 123 4567</a>
-          <a href="mailto:info@usedtvdubai.ae" className="flex items-center gap-2 hover:text-accent"><Mail className="w-4 h-4" /> info@usedtvdubai.ae</a>
-          <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Al Naif Road, Deira, Near California Hotel, Dubai</span>
-          <span className="flex items-center gap-2"><Clock className="w-4 h-4" /> Sat–Thu 9AM–9PM</span>
+          <a href={`tel:${CONTACT.phone}`} className="flex items-center gap-2 hover:text-accent"><Phone className="w-4 h-4" /> {CONTACT.phoneDisplay}</a>
+          <a href={`mailto:${CONTACT.email}`} className="flex items-center gap-2 hover:text-accent"><Mail className="w-4 h-4" /> {CONTACT.email}</a>
+          <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> {CONTACT.address}</span>
+          <span className="flex items-center gap-2"><Clock className="w-4 h-4" /> {CONTACT.hoursShort}</span>
         </div>
 
         <div className="mt-8 pt-6 border-t border-background/10 flex flex-wrap items-center justify-between gap-4 text-xs opacity-50">
-          <p>© {new Date().getFullYear()} UsedTV Dubai. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} UsedTV Dubai. All rights reserved.</p>
           <div className="flex gap-4">
             <Link to="/privacy-policy" className="hover:text-accent">Privacy</Link>
             <Link to="/terms-and-conditions" className="hover:text-accent">Terms</Link>

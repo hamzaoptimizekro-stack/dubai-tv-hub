@@ -1,4 +1,5 @@
-import { Phone, MapPin, Mail, Clock, MessageCircle } from "lucide-react";
+import { Phone, MapPin, Mail, Clock } from "lucide-react";
+import { CONTACT } from "@/config/site";
 
 export default function Contact() {
   return (
@@ -13,43 +14,41 @@ export default function Contact() {
       <section className="section-padding">
         <div className="container max-w-5xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {/* Contact info */}
             <div>
               <h2 className="font-heading text-2xl font-bold mb-6">Get In Touch</h2>
               <div className="space-y-5">
-                <a href="tel:+971501234567" className="flex items-start gap-4 p-4 bg-card rounded-xl border card-elevated">
+                <a href={`tel:${CONTACT.phone}`} className="flex items-start gap-4 p-4 bg-card rounded-xl border card-elevated">
                   <Phone className="w-6 h-6 text-primary mt-0.5" />
                   <div>
                     <p className="font-semibold">Phone / WhatsApp</p>
-                    <p className="text-muted-foreground text-sm">+971 50 123 4567</p>
+                    <p className="text-muted-foreground text-sm">{CONTACT.phoneDisplay}</p>
                   </div>
                 </a>
-                <a href="mailto:info@usedtvdubai.ae" className="flex items-start gap-4 p-4 bg-card rounded-xl border card-elevated">
+                <a href={`mailto:${CONTACT.email}`} className="flex items-start gap-4 p-4 bg-card rounded-xl border card-elevated">
                   <Mail className="w-6 h-6 text-primary mt-0.5" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground text-sm">info@usedtvdubai.ae</p>
+                    <p className="text-muted-foreground text-sm">{CONTACT.email}</p>
                   </div>
                 </a>
                 <div className="flex items-start gap-4 p-4 bg-card rounded-xl border card-elevated">
                   <MapPin className="w-6 h-6 text-primary mt-0.5" />
                   <div>
                     <p className="font-semibold">Address</p>
-                    <p className="text-muted-foreground text-sm">Al Naif Road, Deira, Near California Hotel, Dubai, UAE</p>
+                    <p className="text-muted-foreground text-sm">{CONTACT.address}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-card rounded-xl border card-elevated">
                   <Clock className="w-6 h-6 text-primary mt-0.5" />
                   <div>
                     <p className="font-semibold">Working Hours</p>
-                    <p className="text-muted-foreground text-sm">Saturday – Thursday: 9:00 AM – 9:00 PM</p>
+                    <p className="text-muted-foreground text-sm">{CONTACT.hours}</p>
                     <p className="text-muted-foreground text-sm">Friday: Closed</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Contact form */}
             <div>
               <h2 className="font-heading text-2xl font-bold mb-6">Send a Message</h2>
               <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>

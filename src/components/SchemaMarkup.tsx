@@ -1,16 +1,18 @@
+import { CONTACT, SITE_URL } from "@/config/site";
+
 export default function SchemaMarkup() {
   const localBusiness = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "UsedTV Dubai - Buy & Sell Used TVs in UAE",
-    image: "https://usedtvdubai.ae/logo.png",
-    "@id": "https://usedtvdubai.ae",
-    url: "https://usedtvdubai.ae",
-    telephone: "+971501234567",
-    email: "info@usedtvdubai.ae",
+    image: `${SITE_URL}/logo.png`,
+    "@id": SITE_URL,
+    url: SITE_URL,
+    telephone: CONTACT.phone,
+    email: CONTACT.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Al Naif Road, Deira, Near California Hotel",
+      streetAddress: "Al Musalla Rd",
       addressLocality: "Dubai",
       addressRegion: "Dubai",
       postalCode: "00000",
@@ -30,25 +32,21 @@ export default function SchemaMarkup() {
       },
     ],
     priceRange: "AED 200 - AED 5000",
-    founder: {
-      "@type": "Person",
-      name: "Hassan Jamil",
-    },
-    description:
-      "Dubai's most trusted used TV buyer and seller. We buy and sell all brands of used televisions including Samsung, LG, Sony, TCL and more. Serving UAE for 7+ years.",
+    founder: { "@type": "Person", name: CONTACT.owner },
+    description: "Dubai's most trusted used TV buyer and seller. We buy and sell all brands of used televisions including Samsung, LG, Sony, TCL and more. Serving UAE for 7+ years.",
   };
 
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "UsedTV Dubai",
-    url: "https://usedtvdubai.ae",
-    logo: "https://usedtvdubai.ae/logo.png",
-    founder: { "@type": "Person", name: "Hassan Jamil" },
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo.png`,
+    founder: { "@type": "Person", name: CONTACT.owner },
     foundingDate: "2017",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+971501234567",
+      telephone: CONTACT.phone,
       contactType: "customer service",
       areaServed: "AE",
       availableLanguage: ["English", "Arabic", "Urdu", "Hindi"],
@@ -83,61 +81,29 @@ export default function SchemaMarkup() {
     ],
   };
 
-  const faq = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Where can I sell my used TV in Dubai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "You can sell your used TV at UsedTV Dubai located at Al Naif Road, Deira, Near California Hotel, Dubai. We offer instant cash payment and free pickup across Dubai.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much can I get for my used TV in Dubai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The price depends on the brand, size, model, and condition. Samsung, LG, and Sony TVs typically get the best prices. Contact us for a free valuation.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you buy broken TVs in Dubai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, we buy TVs in all conditions including broken, cracked screen, or non-working TVs. We offer fair prices based on the condition and parts value.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Which TV brands do you buy and sell?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We buy and sell all major brands including Samsung, LG, Sony, TCL, Hisense, Toshiba, Panasonic, Philips, and more.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer free pickup for used TVs?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, we offer free pickup service across Dubai, Sharjah, Ajman, and other UAE emirates. Our team will come to your location at your convenience.",
-        },
-      },
-    ],
-  };
-
   const breadcrumb = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://usedtvdubai.ae/" },
-      { "@type": "ListItem", position: 2, name: "Used TV Buyer Dubai", item: "https://usedtvdubai.ae/used-tv-buyer-dubai" },
-      { "@type": "ListItem", position: 3, name: "Used TV Seller Dubai", item: "https://usedtvdubai.ae/used-tv-seller-dubai" },
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Used TV Buyer Dubai", item: `${SITE_URL}/used-tv-buyer-dubai` },
+      { "@type": "ListItem", position: 3, name: "Used TV Seller Dubai", item: `${SITE_URL}/used-tv-seller-dubai` },
     ],
+  };
+
+  const service = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Used TV Buying and Selling Service",
+    provider: { "@type": "LocalBusiness", name: "UsedTV Dubai" },
+    areaServed: [
+      { "@type": "Country", name: "United Arab Emirates" },
+      { "@type": "City", name: "Dubai" },
+      { "@type": "City", name: "Sharjah" },
+      { "@type": "City", name: "Ajman" },
+      { "@type": "City", name: "Abu Dhabi" },
+    ],
+    description: "Professional used TV buying and selling service across UAE. Free pickup, instant cash, all brands.",
   };
 
   return (
@@ -145,8 +111,8 @@ export default function SchemaMarkup() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviews) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(service) }} />
     </>
   );
 }
