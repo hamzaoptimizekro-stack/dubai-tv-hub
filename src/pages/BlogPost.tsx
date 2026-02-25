@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { Calendar, User, ArrowLeft } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { CONTACT, SITE_URL } from "@/config/site";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 const blogContent: Record<string, { title: string; date: string; content: string }> = {
   "best-used-tv-brands-dubai": {
@@ -94,9 +95,23 @@ export default function BlogPost() {
     "@type": "Article",
     headline: blog.title,
     datePublished: blog.date,
-    author: { "@type": "Person", name: CONTACT.owner },
-    publisher: { "@type": "Organization", name: "UsedTV Dubai", url: SITE_URL },
+    author: {
+      "@type": "Person",
+      name: CONTACT.owner,
+      url: `${SITE_URL}/author/hassan-jamil`,
+    },
+    publisher: { "@type": "Organization", name: "UsedTV Dubai", url: SITE_URL, logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` } },
     mainEntityOfPage: `${SITE_URL}/blogs/${slug}`,
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Blogs", item: `${SITE_URL}/blogs` },
+      { "@type": "ListItem", position: 3, name: blog.title, item: `${SITE_URL}/blogs/${slug}` },
+    ],
   };
 
   return (
@@ -107,6 +122,7 @@ export default function BlogPost() {
         <link rel="canonical" href={`${SITE_URL}/blogs/${slug}`} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
@@ -116,13 +132,25 @@ export default function BlogPost() {
           <h1 className="text-3xl md:text-4xl font-extrabold mb-4">{blog.title}</h1>
           <div className="flex items-center gap-4 text-sm opacity-80">
             <span className="flex items-center gap-1"><Calendar className="w-4 h-4" /> {blog.date}</span>
-            <span className="flex items-center gap-1"><User className="w-4 h-4" /> {CONTACT.owner}</span>
+            <Link to="/author/hassan-jamil" className="flex items-center gap-1 hover:underline">
+              <User className="w-4 h-4" /> {CONTACT.owner}
+            </Link>
           </div>
         </div>
       </section>
 
       <section className="section-padding">
         <div className="container container-narrow prose-seo" dangerouslySetInnerHTML={{ __html: blog.content }} />
+        <div className="container container-narrow mt-8 p-6 bg-secondary rounded-xl">
+          <div className="flex items-center gap-4">
+            <div className="w-14 h-14 rounded-full hero-gradient flex items-center justify-center text-primary-foreground font-heading font-extrabold text-xl shrink-0">HJ</div>
+            <div>
+              <p className="text-sm text-muted-foreground">Written by</p>
+              <Link to="/author/hassan-jamil" className="font-heading font-bold text-lg hover:text-primary transition-colors">{CONTACT.owner}</Link>
+              <p className="text-sm text-muted-foreground">Founder of UsedTV Dubai, 7+ years in used home appliances</p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

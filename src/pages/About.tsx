@@ -1,14 +1,24 @@
 import { Phone, MapPin, Mail, Clock, Shield, Users, Building2 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { CONTACT } from "@/config/site";
+import { CONTACT, SITE_URL } from "@/config/site";
+import { Helmet } from "react-helmet-async";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 export default function About() {
   return (
     <>
+      <Helmet>
+        <title>About UsedTV Dubai - 7+ Years Trusted | {CONTACT.owner}</title>
+        <meta name="description" content={`Learn about UsedTV Dubai, founded by ${CONTACT.owner}. 7+ years serving UAE with 12 businesses in used home appliances.`} />
+        <link rel="canonical" href={`${SITE_URL}/about`} />
+      </Helmet>
+
+      <PageBreadcrumb items={[{ label: "About" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">About UsedTV Dubai</h1>
-          <p className="text-lg opacity-90">Dubai's most trusted name in used TV buying and selling - serving UAE for 7+ years.</p>
+          <p className="text-lg opacity-90">Dubai's most trusted name in used TV buying and selling, founded by <Link to="/author/hassan-jamil" className="underline hover:opacity-80">{CONTACT.owner}</Link>.</p>
         </div>
       </section>
 
@@ -16,7 +26,7 @@ export default function About() {
         <div className="container container-narrow prose-seo">
           <h2 className="heading-highlight">Who We Are</h2>
           <p>
-            UsedTV Dubai is the leading platform for buying and selling used televisions across the UAE. Founded by <strong>{CONTACT.owner}</strong>, a seasoned entrepreneur with <strong>7+ years of experience</strong> in the used home appliance industry and <strong>12 successful businesses</strong> operating in the same niche, we have served over 15,000 customers throughout Dubai, Sharjah, Ajman, and beyond.
+            UsedTV Dubai is the leading platform for buying and selling used televisions across the UAE. Founded by <Link to="/author/hassan-jamil" className="text-primary font-semibold hover:underline">{CONTACT.owner}</Link>, a seasoned entrepreneur with <strong>7+ years of experience</strong> in the used home appliance industry and <strong>12 successful businesses</strong> operating in the same niche, we have served over 15,000 customers throughout Dubai, Sharjah, Ajman, and beyond.
           </p>
 
           <h2 className="heading-highlight">Our Mission</h2>

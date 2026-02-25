@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { CONTACT, SITE_URL, SERVICE_LOCATIONS } from "@/config/site";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 const faqs = [
   { q: "Where can I buy a used TV in Dubai?", a: `UsedTV Dubai has the widest selection of quality-tested used TVs in Dubai. Visit our showroom at ${CONTACT.address} or call ${CONTACT.phoneDisplay} to check current inventory. We also deliver across all of Dubai.` },
@@ -71,6 +72,9 @@ export default function UsedTvSellerDubai() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
+
+      <PageBreadcrumb items={[{ label: "Used TV for Sale in Dubai" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <div className="verified-badge mb-4 bg-primary-foreground/15 text-primary-foreground">
@@ -96,7 +100,7 @@ export default function UsedTvSellerDubai() {
             Looking for a <strong>used TV for sale in Dubai</strong>? UsedTV Dubai offers the widest selection of quality-tested second-hand televisions at unbeatable prices. Whether you need a compact 32-inch TV for your bedroom or a massive 75-inch screen for your living room, we have it all. Every TV in our inventory has been thoroughly inspected by our team of technicians to ensure it meets our strict quality standards.
           </p>
           <p>
-            With over 7 years of experience and 15,000+ satisfied customers, <strong>{CONTACT.owner}</strong> and the UsedTV Dubai team have earned a reputation as the most reliable used TV dealer in the UAE. Our showroom at <strong>{CONTACT.address}</strong> features a large collection of TVs from all major brands at prices 40-70% lower than new retail prices.
+            With over 7 years of experience and 15,000+ satisfied customers, <Link to="/author/hassan-jamil" className="text-primary font-semibold hover:underline">{CONTACT.owner}</Link> and the UsedTV Dubai team have earned a reputation as the most reliable used TV dealer in the UAE. Our showroom at <strong>{CONTACT.address}</strong> features a large collection of TVs from all major brands at prices 40-70% lower than new retail prices.
           </p>
 
           <h2 className="heading-highlight">Our 15-Point Quality Inspection</h2>

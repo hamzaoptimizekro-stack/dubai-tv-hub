@@ -20,6 +20,7 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import ReturnRefundPolicy from "./pages/ReturnRefundPolicy";
 import TradingLicense from "./pages/TradingLicense";
 import NotFound from "./pages/NotFound";
+import AuthorPage from "./pages/AuthorPage";
 
 const queryClient = new QueryClient();
 
@@ -53,6 +54,7 @@ const App = () => (
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="/return-refund-policy" element={<ReturnRefundPolicy />} />
               <Route path="/trading-license" element={<TradingLicense />} />
+              <Route path="/author/hassan-jamil" element={<AuthorPage />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
