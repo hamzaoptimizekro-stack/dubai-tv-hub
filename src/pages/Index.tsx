@@ -81,7 +81,7 @@ export default function Index() {
               <a href={`tel:${CONTACT.phone}`} className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-primary-foreground text-primary font-bold hover:opacity-90 transition-opacity">
                 <Phone className="w-5 h-5" /> Call for Best Price
               </a>
-              <Link to="/used-tv-seller-dubai" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border-2 border-primary-foreground/30 font-bold hover:bg-primary-foreground/10 transition-colors">
+              <Link to="/service/used-tv-seller-dubai" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border-2 border-primary-foreground/30 font-bold hover:bg-primary-foreground/10 transition-colors">
                 Buy Used TVs <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
@@ -162,7 +162,7 @@ export default function Index() {
             <li><strong>Get instant cash</strong> - Once our team inspects the TV at your location, you will receive immediate cash payment.</li>
           </ol>
           <p>
-            We buy <strong>all types of used TVs</strong> including LED, LCD, OLED, QLED, Plasma, Smart TVs, and even broken or non-functioning units. No matter the condition, we will offer you the best price in the market. Learn more on our <Link to="/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> page.
+            We buy <strong>all types of used TVs</strong> including LED, LCD, OLED, QLED, Plasma, Smart TVs, and even broken or non-functioning units. No matter the condition, we will offer you the best price in the market. Learn more on our <Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> page.
           </p>
 
           <h2 className="heading-highlight">Used TV Prices in Dubai - What to Expect</h2>
@@ -185,12 +185,12 @@ export default function Index() {
             Our <strong>used TV buying and selling services</strong> cover the entire UAE, with primary focus on Dubai and the Northern Emirates. We provide <strong>free pickup and delivery</strong> to all areas:
           </p>
           <ul>
-            <li><strong>Dubai</strong> - Deira, Bur Dubai, JBR, Marina, JLT, Downtown, Business Bay, Al Barsha, Silicon Oasis, Sports City, International City, Al Nahda, Al Qusais, Mirdif, Jumeirah. <Link to="/used-tv-buyer-dubai" className="text-primary hover:underline">Sell TV in Dubai</Link> | <Link to="/used-tv-seller-dubai" className="text-primary hover:underline">Buy TV in Dubai</Link></li>
+            <li><strong>Dubai</strong> - Deira, Bur Dubai, JBR, Marina, JLT, Downtown, Business Bay, Al Barsha, Silicon Oasis, Sports City, International City, Al Nahda, Al Qusais, Mirdif, Jumeirah. <Link to="/service/used-tv-buyer-dubai" className="text-primary hover:underline">Sell TV in Dubai</Link> | <Link to="/service/used-tv-seller-dubai" className="text-primary hover:underline">Buy TV in Dubai</Link></li>
             {SERVICE_LOCATIONS.map((loc) => (
               <li key={loc.slug}>
                 <strong>{loc.name}</strong> - {loc.areas.slice(0, 5).join(", ")}.{" "}
-                <Link to={`/used-tv-buyer-${loc.slug}`} className="text-primary hover:underline">Sell TV in {loc.name}</Link> |{" "}
-                <Link to={`/used-tv-seller-${loc.slug}`} className="text-primary hover:underline">Buy TV in {loc.name}</Link>
+                <Link to={`/service/used-tv-buyer-${loc.slug}`} className="text-primary hover:underline">Sell TV in {loc.name}</Link> |{" "}
+                <Link to={`/service/used-tv-seller-${loc.slug}`} className="text-primary hover:underline">Buy TV in {loc.name}</Link>
               </li>
             ))}
           </ul>
@@ -231,12 +231,12 @@ export default function Index() {
           <h2 className="heading-highlight">Our Services</h2>
           <p>Explore our dedicated service pages for more information:</p>
           <ul>
-            <li><Link to="/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> - Sell your TV for instant cash</li>
-            <li><Link to="/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link> - Buy quality tested used TVs</li>
+            <li><Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> - Sell your TV for instant cash</li>
+            <li><Link to="/service/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link> - Buy quality tested used TVs</li>
             {SERVICE_LOCATIONS.slice(0, 3).map((loc) => (
               <li key={loc.slug}>
-                <Link to={`/used-tv-buyer-${loc.slug}`} className="text-primary font-semibold hover:underline">Used TV Buyer in {loc.name}</Link> |{" "}
-                <Link to={`/used-tv-seller-${loc.slug}`} className="text-primary font-semibold hover:underline">Used TV Seller in {loc.name}</Link>
+                <Link to={`/service/used-tv-buyer-${loc.slug}`} className="text-primary font-semibold hover:underline">Used TV Buyer in {loc.name}</Link> |{" "}
+                <Link to={`/service/used-tv-seller-${loc.slug}`} className="text-primary font-semibold hover:underline">Used TV Seller in {loc.name}</Link>
               </li>
             ))}
           </ul>

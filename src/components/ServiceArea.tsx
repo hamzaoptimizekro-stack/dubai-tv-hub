@@ -57,8 +57,8 @@ export default function ServiceArea() {
                   <MapPin className="w-4 h-4 text-primary" /> Dubai
                 </h3>
                 <div className="flex flex-col gap-1 text-sm">
-                  <Link to="/used-tv-buyer-dubai" className="text-muted-foreground hover:text-primary transition-colors">Used TV Buyer in Dubai</Link>
-                  <Link to="/used-tv-seller-dubai" className="text-muted-foreground hover:text-primary transition-colors">Used TV Seller in Dubai</Link>
+                  <Link to="/service/used-tv-buyer-dubai" className="text-muted-foreground hover:text-primary transition-colors">Used TV Buyer in Dubai</Link>
+                  <Link to="/service/used-tv-seller-dubai" className="text-muted-foreground hover:text-primary transition-colors">Used TV Seller in Dubai</Link>
                 </div>
               </div>
 
@@ -68,10 +68,10 @@ export default function ServiceArea() {
                     <MapPin className="w-4 h-4 text-primary" /> {loc.name}
                   </h3>
                   <div className="flex flex-col gap-1 text-sm">
-                    <Link to={`/used-tv-buyer-${loc.slug}`} className="text-muted-foreground hover:text-primary transition-colors">
+                    <Link to={`/service/used-tv-buyer-${loc.slug}`} className="text-muted-foreground hover:text-primary transition-colors">
                       Used TV Buyer in {loc.name}
                     </Link>
-                    <Link to={`/used-tv-seller-${loc.slug}`} className="text-muted-foreground hover:text-primary transition-colors">
+                    <Link to={`/service/used-tv-seller-${loc.slug}`} className="text-muted-foreground hover:text-primary transition-colors">
                       Used TV Seller in {loc.name}
                     </Link>
                   </div>

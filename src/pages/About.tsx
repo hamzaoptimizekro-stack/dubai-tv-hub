@@ -53,8 +53,8 @@ export default function About() {
 
           <h2 className="heading-highlight">Our Services</h2>
           <ul>
-            <li><Link to="/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> - Sell your TV for instant cash</li>
-            <li><Link to="/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link> - Buy quality tested used TVs</li>
+            <li><Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> - Sell your TV for instant cash</li>
+            <li><Link to="/service/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link> - Buy quality tested used TVs</li>
           </ul>
 
           <h2 className="heading-highlight">Why Trust Us?</h2>

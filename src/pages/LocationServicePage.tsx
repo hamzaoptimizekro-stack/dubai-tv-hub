@@ -70,13 +70,14 @@ const locationData: Record<string, {
   },
 };
 
-interface Props {
-  type: "buyer" | "seller";
-}
-
-export default function LocationServicePage({ type }: Props) {
-  const params = useParams<{ location: string }>();
-  const loc = params.location ? locationData[params.location] : null;
+export default function LocationServicePage() {
+  const params = useParams<{ slug: string }>();
+  
+  // Parse slug like "used-tv-buyer-sharjah" or "used-tv-seller-abu-dhabi"
+  const isBuyerFromSlug = params.slug?.startsWith("used-tv-buyer-") ?? false;
+  const type = isBuyerFromSlug ? "buyer" : "seller";
+  const locationKey = params.slug?.replace(/^used-tv-(buyer|seller)-/, "") ?? "";
+  const loc = locationKey ? locationData[locationKey] : null;
 
   if (!loc) {
     return (
@@ -94,7 +95,7 @@ export default function LocationServicePage({ type }: Props) {
   const h1 = isBuyer
     ? `Used TV Buyer in ${loc.name} - Instant Cash, Free Pickup`
     : `Buy Used TV in ${loc.name} - Affordable, Quality Tested`;
-  const slug = isBuyer ? `used-tv-buyer-${params.location}` : `used-tv-seller-${params.location}`;
+  const slug = isBuyer ? `used-tv-buyer-${locationKey}` : `used-tv-seller-${locationKey}`;
 
   const faqs = isBuyer
     ? [
@@ -137,8 +138,8 @@ export default function LocationServicePage({ type }: Props) {
     "@type": "LocalBusiness",
     name: `UsedTV Dubai - ${isBuyer ? "Used TV Buyer" : "Used TV Seller"} in ${loc.name}`,
     image: `${SITE_URL}/logo.png`,
-    "@id": `${SITE_URL}/${slug}`,
-    url: `${SITE_URL}/${slug}`,
+    "@id": `${SITE_URL}/service/${slug}`,
+    url: `${SITE_URL}/service/${slug}`,
     telephone: CONTACT.phone,
     email: CONTACT.email,
     address: {
@@ -173,8 +174,8 @@ export default function LocationServicePage({ type }: Props) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: isBuyer ? "Used TV Buyer Dubai" : "Used TV Seller Dubai", item: `${SITE_URL}/${isBuyer ? "used-tv-buyer-dubai" : "used-tv-seller-dubai"}` },
-      { "@type": "ListItem", position: 3, name: `${isBuyer ? "Used TV Buyer" : "Used TV Seller"} ${loc.name}`, item: `${SITE_URL}/${slug}` },
+      { "@type": "ListItem", position: 2, name: isBuyer ? "Used TV Buyer Dubai" : "Used TV Seller Dubai", item: `${SITE_URL}/service/${isBuyer ? "used-tv-buyer-dubai" : "used-tv-seller-dubai"}` },
+      { "@type": "ListItem", position: 3, name: `${isBuyer ? "Used TV Buyer" : "Used TV Seller"} ${loc.name}`, item: `${SITE_URL}/service/${slug}` },
     ],
   };
 
@@ -186,14 +187,14 @@ export default function LocationServicePage({ type }: Props) {
   };
 
   // Other location links for internal linking
-  const otherLocations = SERVICE_LOCATIONS.filter((l) => l.slug !== params.location);
+  const otherLocations = SERVICE_LOCATIONS.filter((l) => l.slug !== locationKey);
 
   return (
     <>
       <Helmet>
         <title>{title} | UsedTV Dubai</title>
         <meta name="description" content={`${isBuyer ? "Sell your used TV" : "Buy quality used TVs"} in ${loc.name}, UAE. Best prices, free ${isBuyer ? "pickup" : "delivery"}, all brands. Call ${CONTACT.phoneDisplay}.`} />
-        <link rel="canonical" href={`${SITE_URL}/${slug}`} />
+        <link rel="canonical" href={`${SITE_URL}/service/${slug}`} />
       </Helmet>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
@@ -204,7 +205,7 @@ export default function LocationServicePage({ type }: Props) {
 
       <PageBreadcrumb
         items={[
-          { label: isBuyer ? "Used TV Buyer Dubai" : "Used TV Seller Dubai", href: isBuyer ? "/used-tv-buyer-dubai" : "/used-tv-seller-dubai" },
+          { label: isBuyer ? "Used TV Buyer Dubai" : "Used TV Seller Dubai", href: isBuyer ? "/service/used-tv-buyer-dubai" : "/service/used-tv-seller-dubai" },
           { label: `${isBuyer ? "Used TV Buyer" : "Used TV Seller"} ${loc.name}` },
         ]}
       />
@@ -374,13 +375,13 @@ export default function LocationServicePage({ type }: Props) {
           <p>Explore our used TV services in other emirates:</p>
           <ul>
             <li>
-              <Link to="/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link>{" / "}
-              <Link to="/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link>
+              <Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link>{" / "}
+              <Link to="/service/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link>
             </li>
             {otherLocations.map((l) => (
               <li key={l.slug}>
-                <Link to={`/used-tv-buyer-${l.slug}`} className="text-primary font-semibold hover:underline">Used TV Buyer in {l.name}</Link>{" / "}
-                <Link to={`/used-tv-seller-${l.slug}`} className="text-primary font-semibold hover:underline">Used TV Seller in {l.name}</Link>
+                <Link to={`/service/used-tv-buyer-${l.slug}`} className="text-primary font-semibold hover:underline">Used TV Buyer in {l.name}</Link>{" / "}
+                <Link to={`/service/used-tv-seller-${l.slug}`} className="text-primary font-semibold hover:underline">Used TV Seller in {l.name}</Link>
               </li>
             ))}
           </ul>
