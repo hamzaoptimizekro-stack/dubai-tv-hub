@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { CONTACT, SITE_URL, SERVICE_LOCATIONS } from "@/config/site";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 const faqs = [
   { q: "Where can I sell my used TV in Dubai?", a: `You can sell your used TV at UsedTV Dubai. We are located at ${CONTACT.address}. We offer instant cash payment and free pickup from anywhere in Dubai. Call ${CONTACT.phoneDisplay} for a free quote.` },
@@ -72,6 +73,8 @@ export default function UsedTvBuyerDubai() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
+      <PageBreadcrumb items={[{ label: "Used TV Buyer in Dubai" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <div className="verified-badge mb-4 bg-primary-foreground/15 text-primary-foreground">
@@ -97,7 +100,7 @@ export default function UsedTvBuyerDubai() {
             Are you looking for a reliable <strong>used TV buyer in Dubai</strong>? UsedTV Dubai is the most trusted name in the UAE for buying pre-owned televisions. Whether you have a Samsung, LG, Sony, TCL, Hisense, or any other brand, we offer the highest buyback prices with instant cash payment and free pickup from your doorstep.
           </p>
           <p>
-            Founded by <strong>{CONTACT.owner}</strong>, who has been running 12 successful businesses in the used home appliance niche for over 7 years in Dubai, our company has built a reputation based on trust, fair pricing, and exceptional customer service. We have served over 15,000 satisfied customers across the UAE.
+            Founded by <Link to="/author/hassan-jamil" className="text-primary font-semibold hover:underline">{CONTACT.owner}</Link>, who has been running 12 successful businesses in the used home appliance niche for over 7 years in Dubai, our company has built a reputation based on trust, fair pricing, and exceptional customer service. We have served over 15,000 satisfied customers across the UAE.
           </p>
 
           <h2 className="heading-highlight">Why Sell Your Used TV to UsedTV Dubai?</h2>

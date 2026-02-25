@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import { Calendar, ArrowRight, User } from "lucide-react";
+import { Helmet } from "react-helmet-async";
+import { CONTACT, SITE_URL } from "@/config/site";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 export const blogs = [
   { slug: "best-used-tv-brands-dubai", title: "Top 5 Best Used TV Brands to Buy in Dubai in 2025", excerpt: "Looking for the best used TV brand in Dubai? Here is our expert guide to the top 5 brands that offer the best value for money.", date: "2025-12-10", author: "Hassan Jamil" },
@@ -18,13 +21,31 @@ export const blogs = [
   { slug: "used-tv-vs-new-tv-dubai", title: "Used TV vs New TV - Which is Better Value in Dubai?", excerpt: "A honest comparison between buying new and used TVs in Dubai. Find out which option saves you more money.", date: "2025-12-20", author: "Hassan Jamil" },
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Blogs", item: `${SITE_URL}/blogs` },
+  ],
+};
+
 export default function Blogs() {
   return (
     <>
+      <Helmet>
+        <title>Blog - Used TV Tips & Guides | UsedTV Dubai</title>
+        <meta name="description" content="Expert tips and guides on buying and selling used TVs in Dubai and UAE. Price guides, brand comparisons, and market analysis." />
+        <link rel="canonical" href={`${SITE_URL}/blogs`} />
+      </Helmet>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
+      <PageBreadcrumb items={[{ label: "Blogs" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Blog - Used TV Tips & Guides</h1>
-          <p className="text-lg opacity-90">Expert advice on buying and selling used TVs in Dubai and UAE.</p>
+          <p className="text-lg opacity-90">Expert advice on buying and selling used TVs in Dubai and UAE by <Link to="/author/hassan-jamil" className="underline hover:opacity-80">{CONTACT.owner}</Link>.</p>
         </div>
       </section>
 
