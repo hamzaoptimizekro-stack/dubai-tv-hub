@@ -86,8 +86,8 @@ export default function SchemaMarkup() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "Used TV Buyer Dubai", item: `${SITE_URL}/used-tv-buyer-dubai` },
-      { "@type": "ListItem", position: 3, name: "Used TV Seller Dubai", item: `${SITE_URL}/used-tv-seller-dubai` },
+      { "@type": "ListItem", position: 2, name: "Used TV Buyer Dubai", item: `${SITE_URL}/service/used-tv-buyer-dubai` },
+      { "@type": "ListItem", position: 3, name: "Used TV Seller Dubai", item: `${SITE_URL}/service/used-tv-seller-dubai` },
     ],
   };
 

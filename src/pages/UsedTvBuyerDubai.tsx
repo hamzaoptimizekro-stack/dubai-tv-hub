@@ -33,8 +33,8 @@ export default function UsedTvBuyerDubai() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "UsedTV Dubai - Used TV Buyer in Dubai",
-    "@id": `${SITE_URL}/used-tv-buyer-dubai`,
-    url: `${SITE_URL}/used-tv-buyer-dubai`,
+    "@id": `${SITE_URL}/service/used-tv-buyer-dubai`,
+    url: `${SITE_URL}/service/used-tv-buyer-dubai`,
     telephone: CONTACT.phone,
     email: CONTACT.email,
     address: { "@type": "PostalAddress", streetAddress: "Al Musalla Rd", addressLocality: "Dubai", addressCountry: "AE" },
@@ -56,7 +56,7 @@ export default function UsedTvBuyerDubai() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "Used TV Buyer in Dubai", item: `${SITE_URL}/used-tv-buyer-dubai` },
+      { "@type": "ListItem", position: 2, name: "Used TV Buyer in Dubai", item: `${SITE_URL}/service/used-tv-buyer-dubai` },
     ],
   };
 
@@ -65,7 +65,7 @@ export default function UsedTvBuyerDubai() {
       <Helmet>
         <title>Used TV Buyer in Dubai - We Buy All Brands | Instant Cash | UsedTV Dubai</title>
         <meta name="description" content={`Sell your used TV in Dubai for the best price. Instant cash, free pickup, all brands accepted. Call ${CONTACT.phoneDisplay}. Trusted for 7+ years.`} />
-        <link rel="canonical" href={`${SITE_URL}/used-tv-buyer-dubai`} />
+        <link rel="canonical" href={`${SITE_URL}/service/used-tv-buyer-dubai`} />
       </Helmet>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
@@ -170,7 +170,7 @@ export default function UsedTvBuyerDubai() {
           <ul>
             {SERVICE_LOCATIONS.map((loc) => (
               <li key={loc.slug}>
-                <Link to={`/used-tv-buyer-${loc.slug}`} className="text-primary font-semibold hover:underline">
+                <Link to={`/service/used-tv-buyer-${loc.slug}`} className="text-primary font-semibold hover:underline">
                   Used TV Buyer in {loc.name}
                 </Link>
               </li>
@@ -178,7 +178,7 @@ export default function UsedTvBuyerDubai() {
           </ul>
 
           <p>
-            Also explore: <Link to="/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Buy Used TVs in Dubai</Link> |{" "}
+            Also explore: <Link to="/service/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Buy Used TVs in Dubai</Link> |{" "}
             <Link to="/blogs" className="text-primary font-semibold hover:underline">Read Our Blog</Link> |{" "}
             <Link to="/about" className="text-primary font-semibold hover:underline">About Us</Link>
           </p>

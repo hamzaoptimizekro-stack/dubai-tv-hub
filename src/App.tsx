@@ -45,11 +45,10 @@ const App = () => (
               <Route path="/contact" element={<Contact />} />
               <Route path="/blogs" element={<Blogs />} />
               <Route path="/blogs/:slug" element={<BlogPost />} />
-              <Route path="/used-tv-buyer-dubai" element={<UsedTvBuyerDubai />} />
-              <Route path="/used-tv-seller-dubai" element={<UsedTvSellerDubai />} />
+              <Route path="/service/used-tv-buyer-dubai" element={<UsedTvBuyerDubai />} />
+              <Route path="/service/used-tv-seller-dubai" element={<UsedTvSellerDubai />} />
               {/* Location-based service pages */}
-              <Route path="/used-tv-buyer-:location" element={<LocationServicePage type="buyer" />} />
-              <Route path="/used-tv-seller-:location" element={<LocationServicePage type="seller" />} />
+              <Route path="/service/:slug" element={<LocationServicePage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="/return-refund-policy" element={<ReturnRefundPolicy />} />

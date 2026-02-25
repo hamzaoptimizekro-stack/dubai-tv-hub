@@ -15,10 +15,10 @@ const footerLinks = [
   {
     title: "Services",
     links: [
-      { to: "/used-tv-buyer-dubai", label: "Used TV Buyer Dubai" },
-      { to: "/used-tv-seller-dubai", label: "Used TV Seller Dubai" },
+      { to: "/service/used-tv-buyer-dubai", label: "Used TV Buyer Dubai" },
+      { to: "/service/used-tv-seller-dubai", label: "Used TV Seller Dubai" },
       ...SERVICE_LOCATIONS.slice(0, 4).flatMap((loc) => [
-        { to: `/used-tv-buyer-${loc.slug}`, label: `TV Buyer ${loc.name}` },
+        { to: `/service/used-tv-buyer-${loc.slug}`, label: `TV Buyer ${loc.name}` },
       ]),
     ],
   },

@@ -8,11 +8,11 @@ const navLinks = [
   {
     label: "Services",
     children: [
-      { to: "/used-tv-buyer-dubai", label: "Used TV Buyer in Dubai" },
-      { to: "/used-tv-seller-dubai", label: "Used TV Seller in Dubai" },
+      { to: "/service/used-tv-buyer-dubai", label: "Used TV Buyer in Dubai" },
+      { to: "/service/used-tv-seller-dubai", label: "Used TV Seller in Dubai" },
       ...SERVICE_LOCATIONS.flatMap((loc) => [
-        { to: `/used-tv-buyer-${loc.slug}`, label: `Used TV Buyer in ${loc.name}` },
-        { to: `/used-tv-seller-${loc.slug}`, label: `Used TV Seller in ${loc.name}` },
+        { to: `/service/used-tv-buyer-${loc.slug}`, label: `Used TV Buyer in ${loc.name}` },
+        { to: `/service/used-tv-seller-${loc.slug}`, label: `Used TV Seller in ${loc.name}` },
       ]),
     ],
   },
