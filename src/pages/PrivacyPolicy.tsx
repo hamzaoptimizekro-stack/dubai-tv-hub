@@ -1,6 +1,18 @@
+import { Helmet } from "react-helmet-async";
+import { CONTACT, SITE_URL } from "@/config/site";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
+
 export default function PrivacyPolicy() {
   return (
     <>
+      <Helmet>
+        <title>Privacy Policy | UsedTV Dubai - Your Data Protection</title>
+        <meta name="description" content="Read UsedTV Dubai's privacy policy. Learn how we collect, use, and protect your personal information when using our used TV buying and selling services." />
+        <link rel="canonical" href={`${SITE_URL}/privacy-policy`} />
+      </Helmet>
+
+      <PageBreadcrumb items={[{ label: "Privacy Policy" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Privacy Policy</h1>
@@ -31,7 +43,7 @@ export default function PrivacyPolicy() {
           <p>We may employ third-party companies and individuals to facilitate our service. These third parties have access to your personal information only to perform tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
 
           <h2>Contact Us</h2>
-          <p>If you have questions about this Privacy Policy, contact us at info@usedtvdubai.ae or visit us at Al Naif Road, Deira, Near California Hotel, Dubai.</p>
+          <p>If you have questions about this Privacy Policy, contact us at {CONTACT.email} or visit us at {CONTACT.address}.</p>
         </div>
       </section>
     </>

@@ -59,7 +59,7 @@ export default function About() {
 
           <h2 className="heading-highlight">Why Trust Us?</h2>
           <p>
-            With a rating of 4.8/5 from over 1,250 verified reviews, we are among the highest-rated used electronics dealers in Dubai. Read our <Link to="/blogs" className="text-primary font-semibold hover:underline">blog</Link> for expert tips.
+            With a rating of 4.9/5 from 208 verified reviews, we are among the highest-rated used electronics dealers in Dubai. Read our <Link to="/blogs" className="text-primary font-semibold hover:underline">blog</Link> for expert tips.
           </p>
         </div>
       </section>

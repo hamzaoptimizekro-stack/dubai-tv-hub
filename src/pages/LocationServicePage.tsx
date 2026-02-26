@@ -153,7 +153,7 @@ export default function LocationServicePage() {
     priceRange: "AED 200 - AED 5000",
     founder: { "@type": "Person", name: CONTACT.owner },
     description: `${isBuyer ? "Sell your used TV" : "Buy quality used TVs"} in ${loc.name}. Free ${isBuyer ? "pickup" : "delivery"}, instant cash, all brands. Serving ${loc.areas.slice(0, 5).join(", ")} and more.`,
-    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", reviewCount: "1250", bestRating: "5" },
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "208", bestRating: "5" },
   };
 
   const serviceSchema = {
@@ -183,7 +183,7 @@ export default function LocationServicePage() {
     "@context": "https://schema.org",
     "@type": "Product",
     name: `${isBuyer ? "Used TV Buying" : "Used TV Selling"} Service in ${loc.name}`,
-    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", reviewCount: "1250", bestRating: "5" },
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "208", bestRating: "5" },
   };
 
   // Other location links for internal linking
@@ -367,7 +367,7 @@ export default function LocationServicePage() {
           <h2 className="heading-highlight">About UsedTV Dubai</h2>
           <p>
             UsedTV Dubai is founded by <Link to="/author/hassan-jamil" className="text-primary font-semibold hover:underline">{CONTACT.owner}</Link>, who has been running 12 successful businesses in the used home appliance niche for over 7 years in Dubai.
-            With more than 15,000 satisfied customers and a rating of 4.8/5 from 1,250+ verified reviews, we are the most trusted name for used TVs in the UAE.
+            With more than 15,000 satisfied customers and a rating of 4.9/5 from 208 verified reviews, we are the most trusted name for used TVs in the UAE.
             Our commitment to fair pricing, quality testing, and customer convenience has made us the go-to choice for both buying and selling used televisions across all seven emirates.
           </p>
 

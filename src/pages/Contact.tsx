@@ -1,9 +1,19 @@
 import { Phone, MapPin, Mail, Clock } from "lucide-react";
-import { CONTACT } from "@/config/site";
+import { Helmet } from "react-helmet-async";
+import { CONTACT, SITE_URL } from "@/config/site";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 export default function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Contact UsedTV Dubai - Get a Free Quote | Call {CONTACT.phoneDisplay}</title>
+        <meta name="description" content={`Contact UsedTV Dubai for buying or selling used TVs. Call ${CONTACT.phoneDisplay}, email ${CONTACT.email}. Visit us at ${CONTACT.addressShort}. Free quotes.`} />
+        <link rel="canonical" href={`${SITE_URL}/contact`} />
+      </Helmet>
+
+      <PageBreadcrumb items={[{ label: "Contact" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Contact Us</h1>
