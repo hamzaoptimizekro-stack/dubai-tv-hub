@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Phone, Shield, MapPin, Star, CheckCircle, Tv, ArrowRight, Users, Clock, BadgeCheck, ThumbsUp, Truck } from "lucide-react";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import BrandSlider from "@/components/BrandSlider";
@@ -57,11 +58,41 @@ const faqSchema = {
   })),
 };
 
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "UsedTV Dubai",
+  image: `${SITE_URL}/logo.png`,
+  "@id": SITE_URL,
+  url: SITE_URL,
+  telephone: CONTACT.phone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Al Musalla Rd",
+    addressLocality: "Dubai",
+    addressRegion: "Dubai",
+    addressCountry: "AE",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "208",
+    bestRating: "5",
+    worstRating: "1",
+  },
+};
+
 export default function Index() {
   return (
     <>
+      <Helmet>
+        <title>Buy & Sell Used TVs in Dubai, UAE - Best Prices | UsedTV Dubai</title>
+        <meta name="description" content="Dubai's #1 trusted dealer for buying and selling used TVs. Samsung, LG, Sony & all brands. Instant cash, free pickup, quality tested. Call +971 55 734 9696." />
+        <link rel="canonical" href={`${SITE_URL}/`} />
+      </Helmet>
       <SchemaMarkup />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero */}
       <section className="hero-gradient text-primary-foreground section-padding relative overflow-hidden">
@@ -86,7 +117,7 @@ export default function Index() {
               </Link>
             </div>
             <div className="mt-8 flex flex-wrap gap-6 text-sm opacity-80">
-              <span className="flex items-center gap-1.5"><Star className="w-4 h-4 fill-current" /> 4.8/5 (1,250+ Reviews)</span>
+              <span className="flex items-center gap-1.5"><Star className="w-4 h-4 fill-current" /> 4.9/5 (208 Reviews)</span>
               <span className="flex items-center gap-1.5"><Users className="w-4 h-4" /> 15,000+ Happy Customers</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> Same Day Service</span>
             </div>
@@ -197,7 +228,7 @@ export default function Index() {
 
           <h2 className="heading-highlight">Why Choose UsedTV Dubai Over Other Dealers?</h2>
           <p>
-            The used electronics market in Dubai can be overwhelming. At UsedTV Dubai, we have earned <strong>4.8/5 stars from over 1,250 verified reviews</strong>. Here is what makes us different:
+            The used electronics market in Dubai can be overwhelming. At UsedTV Dubai, we have earned <strong>4.9/5 stars from 208 verified reviews</strong>. Here is what makes us different:
           </p>
           <ul>
             <li><strong>Transparency</strong> - No hidden fees, no last-minute price changes. The price we quote is the price you get.</li>
@@ -262,7 +293,7 @@ export default function Index() {
       <section className="section-padding section-gradient">
         <div className="container">
           <h2 className="text-3xl font-extrabold text-center mb-4">What Our Customers Say</h2>
-          <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto">Rated 4.8/5 from 1,250+ verified reviews across Dubai and UAE.</p>
+          <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto">Rated 4.9/5 from 208 verified reviews across Dubai and UAE.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {testimonials.map((t) => (
               <div key={t.name} className="bg-card rounded-xl p-6 card-elevated border">

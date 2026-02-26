@@ -1,6 +1,18 @@
+import { Helmet } from "react-helmet-async";
+import { CONTACT, SITE_URL } from "@/config/site";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
+
 export default function TermsAndConditions() {
   return (
     <>
+      <Helmet>
+        <title>Terms & Conditions | UsedTV Dubai - Service Agreement</title>
+        <meta name="description" content="Terms and conditions for UsedTV Dubai services. Understand our policies on pricing, payment, product condition, and liability for used TV transactions." />
+        <link rel="canonical" href={`${SITE_URL}/terms-and-conditions`} />
+      </Helmet>
+
+      <PageBreadcrumb items={[{ label: "Terms & Conditions" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Terms & Conditions</h1>
@@ -28,7 +40,7 @@ export default function TermsAndConditions() {
           <p>These terms are governed by and construed in accordance with the laws of the United Arab Emirates and the Emirate of Dubai.</p>
 
           <h2>Contact</h2>
-          <p>For questions about these Terms, contact us at info@usedtvdubai.ae or visit our office at Al Naif Road, Deira, Near California Hotel, Dubai.</p>
+          <p>For questions about these Terms, contact us at {CONTACT.email} or visit our office at {CONTACT.address}.</p>
         </div>
       </section>
     </>

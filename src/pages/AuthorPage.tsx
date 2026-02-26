@@ -90,7 +90,7 @@ export default function AuthorPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
               <div className="flex items-start gap-3"><Building2 className="w-5 h-5 text-primary mt-0.5" /><div><strong>Businesses:</strong> 12 Active in UAE</div></div>
               <div className="flex items-start gap-3"><Award className="w-5 h-5 text-primary mt-0.5" /><div><strong>Experience:</strong> 7+ Years</div></div>
-              <div className="flex items-start gap-3"><Star className="w-5 h-5 text-primary mt-0.5" /><div><strong>Rating:</strong> 4.8/5 (1,250+ Reviews)</div></div>
+              <div className="flex items-start gap-3"><Star className="w-5 h-5 text-primary mt-0.5" /><div><strong>Rating:</strong> 4.9/5 (208 Reviews)</div></div>
               <div className="flex items-start gap-3"><Shield className="w-5 h-5 text-primary mt-0.5" /><div><strong>Customers:</strong> 15,000+ Served</div></div>
               <div className="flex items-start gap-3"><MapPin className="w-5 h-5 text-primary mt-0.5" /><div><strong>Location:</strong> {CONTACT.addressShort}</div></div>
               <div className="flex items-start gap-3"><Phone className="w-5 h-5 text-primary mt-0.5" /><div><strong>Contact:</strong> {CONTACT.phoneDisplay}</div></div>
@@ -113,8 +113,8 @@ export default function AuthorPage() {
           <h2 className="heading-highlight">Services by {CONTACT.owner}</h2>
           <p>Explore the services offered by UsedTV Dubai:</p>
           <ul>
-            <li><Link to="/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link></li>
-            <li><Link to="/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link></li>
+            <li><Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link></li>
+            <li><Link to="/service/used-tv-seller-dubai" className="text-primary font-semibold hover:underline">Used TV Seller in Dubai</Link></li>
             <li><Link to="/about" className="text-primary font-semibold hover:underline">About UsedTV Dubai</Link></li>
             <li><Link to="/contact" className="text-primary font-semibold hover:underline">Contact Us</Link></li>
           </ul>

@@ -1,8 +1,19 @@
 import { Shield, CheckCircle } from "lucide-react";
+import { Helmet } from "react-helmet-async";
+import { CONTACT, SITE_URL } from "@/config/site";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 export default function TradingLicense() {
   return (
     <>
+      <Helmet>
+        <title>Trading License | UsedTV Dubai - Verified Licensed Business</title>
+        <meta name="description" content="UsedTV Dubai is a fully licensed trading business registered with Dubai DED. Verify our commercial trading license for used electronic equipment." />
+        <link rel="canonical" href={`${SITE_URL}/trading-license`} />
+      </Helmet>
+
+      <PageBreadcrumb items={[{ label: "Trading License" }]} />
+
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Trading License</h1>
@@ -21,12 +32,12 @@ export default function TradingLicense() {
             </div>
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Business Name:</strong> UsedTV Dubai</div>
-              <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Owner:</strong> Hassan Jamil</div>
+              <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Owner:</strong> {CONTACT.owner}</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>License Type:</strong> Commercial Trading License</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Issuing Authority:</strong> Department of Economic Development (DED), Dubai</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Activities:</strong> Trading in Used Electronic Equipment & Home Appliances</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Status:</strong> Active & Valid</div>
-              <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Address:</strong> Al Naif Road, Deira, Near California Hotel, Dubai</div>
+              <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> <strong>Address:</strong> {CONTACT.address}</div>
             </div>
           </div>
 
