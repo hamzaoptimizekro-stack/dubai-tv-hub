@@ -174,7 +174,7 @@ export default function LocationServicePage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: isBuyer ? "Used TV Buyer Dubai" : "Used TV Seller Dubai", item: `${SITE_URL}/service/${isBuyer ? "used-tv-buyer-dubai" : "used-tv-seller-dubai"}` },
+      { "@type": "ListItem", position: 2, name: "Services", item: `${SITE_URL}/service` },
       { "@type": "ListItem", position: 3, name: `${isBuyer ? "Used TV Buyer" : "Used TV Seller"} ${loc.name}`, item: `${SITE_URL}/service/${slug}` },
     ],
   };
@@ -205,7 +205,7 @@ export default function LocationServicePage() {
 
       <PageBreadcrumb
         items={[
-          { label: isBuyer ? "Used TV Buyer Dubai" : "Used TV Seller Dubai", href: isBuyer ? "/service/used-tv-buyer-dubai" : "/service/used-tv-seller-dubai" },
+          { label: "Services", href: "/service" },
           { label: `${isBuyer ? "Used TV Buyer" : "Used TV Seller"} ${loc.name}` },
         ]}
       />

@@ -15,6 +15,7 @@ import BlogPost from "./pages/BlogPost";
 import UsedTvBuyerDubai from "./pages/UsedTvBuyerDubai";
 import UsedTvSellerDubai from "./pages/UsedTvSellerDubai";
 import LocationServicePage from "./pages/LocationServicePage";
+import Services from "./pages/Services";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import ReturnRefundPolicy from "./pages/ReturnRefundPolicy";
@@ -45,6 +46,7 @@ const App = () => (
               <Route path="/contact" element={<Contact />} />
               <Route path="/blogs" element={<Blogs />} />
               <Route path="/blogs/:slug" element={<BlogPost />} />
+              <Route path="/service" element={<Services />} />
               <Route path="/service/used-tv-buyer-dubai" element={<UsedTvBuyerDubai />} />
               <Route path="/service/used-tv-seller-dubai" element={<UsedTvSellerDubai />} />
               {/* Location-based service pages */}

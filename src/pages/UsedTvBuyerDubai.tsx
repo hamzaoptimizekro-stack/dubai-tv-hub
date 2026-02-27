@@ -56,7 +56,8 @@ export default function UsedTvBuyerDubai() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "Used TV Buyer in Dubai", item: `${SITE_URL}/service/used-tv-buyer-dubai` },
+      { "@type": "ListItem", position: 2, name: "Services", item: `${SITE_URL}/service` },
+      { "@type": "ListItem", position: 3, name: "Used TV Buyer in Dubai", item: `${SITE_URL}/service/used-tv-buyer-dubai` },
     ],
   };
 
@@ -73,7 +74,7 @@ export default function UsedTvBuyerDubai() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <PageBreadcrumb items={[{ label: "Used TV Buyer in Dubai" }]} />
+      <PageBreadcrumb items={[{ label: "Services", href: "/service" }, { label: "Used TV Buyer in Dubai" }]} />
 
       <section className="hero-gradient text-primary-foreground section-padding">
         <div className="container max-w-3xl">
