@@ -1,5 +1,5 @@
 // Central site configuration - update these values when connecting a custom domain
-export const SITE_URL = "https://usedtvdubai.ae";
+export const SITE_URL = "https://www.usedtvdubai.com";
 
 export const CONTACT = {
   phone: "+971557349696",
