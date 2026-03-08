@@ -82,6 +82,62 @@ const reviewSchema = {
   },
 };
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "UsedTV Dubai",
+  url: SITE_URL,
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${SITE_URL}/blogs?q={search_term_string}`,
+    "query-input": "required name=search_term_string",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "UsedTV Dubai",
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo.png`,
+  },
+};
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Buy & Sell Used TVs in Dubai, UAE - Best Prices | UsedTV Dubai",
+  url: `${SITE_URL}/`,
+  description: "Dubai's #1 trusted dealer for buying and selling used TVs. Samsung, LG, Sony & all brands. Instant cash, free pickup, quality tested. Call +971 55 734 9696.",
+  isPartOf: { "@type": "WebSite", "@id": SITE_URL },
+  about: { "@type": "Thing", name: "Used Television Trading in Dubai UAE" },
+  datePublished: "2024-01-01",
+  dateModified: "2026-03-08",
+  inLanguage: "en",
+  primaryImageOfPage: { "@type": "ImageObject", url: `${SITE_URL}/hero-bg.jpg` },
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: CONTACT.owner,
+  jobTitle: "Founder & CEO",
+  description: CONTACT.ownerTitle,
+  url: `${SITE_URL}/author/hassan-jamil`,
+  worksFor: {
+    "@type": "LocalBusiness",
+    name: "UsedTV Dubai",
+    url: SITE_URL,
+  },
+  knowsAbout: ["Used TVs", "Second Hand Electronics", "TV Trading", "Dubai Electronics Market"],
+  sameAs: [],
+};
+
+const homeBreadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+  ],
+};
+
 export default function Index() {
   return (
     <>
@@ -93,6 +149,10 @@ export default function Index() {
       <SchemaMarkup />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeBreadcrumb) }} />
 
       {/* Hero */}
       <section className="text-primary-foreground section-padding relative overflow-hidden">
