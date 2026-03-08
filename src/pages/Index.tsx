@@ -95,7 +95,11 @@ export default function Index() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero */}
-      <section className="hero-gradient text-primary-foreground section-padding relative overflow-hidden">
+      <section className="text-primary-foreground section-padding relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img src="/hero-bg.jpg" alt="" className="w-full h-full object-cover" loading="eager" />
+        </div>
+        <div className="absolute inset-0 hero-gradient opacity-85" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_hsl(200_85%_60%_/_0.3),_transparent_60%)]" />
         <div className="container relative">
           <div className="max-w-3xl animate-fade-in-up">
