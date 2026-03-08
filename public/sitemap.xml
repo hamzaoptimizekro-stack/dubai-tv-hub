@@ -1,51 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.usedtvdubai.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.usedtvdubai.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <!-- Service Pages -->
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-buyer-dubai</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-seller-dubai</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <!-- Location Service Pages -->
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-buyer-sharjah</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-seller-sharjah</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-buyer-ajman</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-seller-ajman</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-buyer-abu-dhabi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-seller-abu-dhabi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-buyer-ras-al-khaimah</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-seller-ras-al-khaimah</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-buyer-fujairah</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-seller-fujairah</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-buyer-umm-al-quwain</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.usedtvdubai.com/service/used-tv-seller-umm-al-quwain</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <!-- Blog Posts -->
-  <url><loc>https://www.usedtvdubai.com/blogs/best-used-tv-brands-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/how-to-sell-used-tv-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-tv-price-guide-uae</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/tips-buying-second-hand-tv</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/samsung-vs-lg-used-tv-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/where-to-buy-cheap-tv-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-smart-tv-deals-uae</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/sell-broken-tv-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-oled-tv-dubai-guide</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-tv-warranty-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/best-tv-size-for-room</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-tv-market-trends-uae-2025</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/eco-friendly-electronics-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-tv-vs-new-tv-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/how-to-check-used-tv-before-buying</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/best-used-tv-for-gaming-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-tv-for-hotel-apartments-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/how-to-wall-mount-used-tv</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.usedtvdubai.com/blogs/used-tv-delivery-all-emirates-uae</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <!-- Author Page -->
-  <url><loc>https://www.usedtvdubai.com/author/hassan-jamil</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <!-- Legal Pages -->
-  <url><loc>https://www.usedtvdubai.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://www.usedtvdubai.com/terms-and-conditions</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://www.usedtvdubai.com/return-refund-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://www.usedtvdubai.com/trading-license</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ==================== -->
+  <!-- HOMEPAGE             -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ==================== -->
+  <!-- MAIN PAGES           -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/about</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/contact</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ==================== -->
+  <!-- SERVICES INDEX       -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ==================== -->
+  <!-- DUBAI SERVICE PAGES  -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-buyer-dubai</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-seller-dubai</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ============================= -->
+  <!-- LOCATION SERVICE PAGES        -->
+  <!-- Sharjah, Ajman, Abu Dhabi,    -->
+  <!-- RAK, Fujairah, Umm Al Quwain  -->
+  <!-- ============================= -->
+
+  <!-- Sharjah -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-buyer-sharjah</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-seller-sharjah</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ajman -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-buyer-ajman</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-seller-ajman</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Abu Dhabi -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-buyer-abu-dhabi</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-seller-abu-dhabi</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ras Al Khaimah -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-buyer-ras-al-khaimah</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-seller-ras-al-khaimah</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Fujairah -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-buyer-fujairah</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-seller-fujairah</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Umm Al Quwain -->
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-buyer-umm-al-quwain</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/service/used-tv-seller-umm-al-quwain</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ==================== -->
+  <!-- BLOG LISTING PAGE    -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ==================== -->
+  <!-- BLOG POSTS           -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/best-used-tv-brands-dubai</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/how-to-sell-used-tv-dubai</loc>
+    <lastmod>2025-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-tv-price-guide-uae</loc>
+    <lastmod>2025-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/tips-buying-second-hand-tv</loc>
+    <lastmod>2025-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/samsung-vs-lg-used-tv-dubai</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/where-to-buy-cheap-tv-dubai</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-smart-tv-deals-uae</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/sell-broken-tv-dubai</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-oled-tv-dubai-guide</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-tv-warranty-dubai</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/best-tv-size-for-room</loc>
+    <lastmod>2026-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-tv-market-trends-uae-2025</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/eco-friendly-electronics-dubai</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-tv-vs-new-tv-dubai</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/how-to-check-used-tv-before-buying</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/best-used-tv-for-gaming-dubai</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-tv-for-hotel-apartments-dubai</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/how-to-wall-mount-used-tv</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/blogs/used-tv-delivery-all-emirates-uae</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ==================== -->
+  <!-- AUTHOR PAGE          -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/author/hassan-jamil</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ==================== -->
+  <!-- LEGAL PAGES          -->
+  <!-- ==================== -->
+  <url>
+    <loc>https://www.usedtvdubai.com/privacy-policy</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/terms-and-conditions</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/return-refund-policy</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.usedtvdubai.com/trading-license</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
