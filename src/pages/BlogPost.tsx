@@ -3,8 +3,9 @@ import { Calendar, User, ArrowLeft } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { CONTACT, SITE_URL } from "@/config/site";
 import PageBreadcrumb from "@/components/PageBreadcrumb";
+import { newBlogContent, BlogFaq } from "@/data/blogArticles";
 
-const blogContent: Record<string, { title: string; date: string; metaDescription: string; content: string }> = {
+const blogContent: Record<string, { title: string; date: string; metaDescription: string; content: string; faqs?: BlogFaq[] }> = {
   "best-used-tv-brands-dubai": {
     title: "Top 5 Best Used TV Brands to Buy in Dubai in 2025",
     date: "2025-12-10",
