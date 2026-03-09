@@ -1054,6 +1054,7 @@ const blogContent: Record<string, { title: string; date: string; metaDescription
 <p>Payment can be made in cash upon delivery or via bank transfer before dispatch. For cash on delivery, please have the exact amount ready as our delivery team may not carry change for large denominations.</p>
 <p>Explore all our <a href="/service">services across the UAE</a> or browse our <a href="/blogs">blog</a> for more guides on buying and selling used TVs in the Emirates.</p>`,
   },
+  ...newBlogContent,
 };
 
 export default function BlogPost() {
@@ -1095,6 +1096,19 @@ export default function BlogPost() {
     ],
   };
 
+  const faqSchema = blog.faqs ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: blog.faqs.map(faq => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer
+      }
+    }))
+  } : null;
+
   return (
     <>
       <Helmet>
@@ -1104,6 +1118,7 @@ export default function BlogPost() {
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
 
       <PageBreadcrumb items={[{ label: "Blogs", href: "/blogs" }, { label: blog.title }]} />
 
@@ -1124,6 +1139,21 @@ export default function BlogPost() {
 
       <section className="section-padding">
         <div className="container container-narrow prose-seo" dangerouslySetInnerHTML={{ __html: blog.content }} />
+        
+        {blog.faqs && blog.faqs.length > 0 && (
+          <div className="container container-narrow mt-12">
+            <h2 className="text-2xl font-heading font-bold mb-6">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              {blog.faqs.map((faq, index) => (
+                <div key={index} className="bg-secondary rounded-lg p-6">
+                  <h3 className="font-semibold text-lg mb-2">{faq.question}</h3>
+                  <p className="text-muted-foreground">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        
         <div className="container container-narrow mt-8 p-6 bg-secondary rounded-xl">
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 rounded-full hero-gradient flex items-center justify-center text-primary-foreground font-heading font-extrabold text-xl shrink-0">HJ</div>
