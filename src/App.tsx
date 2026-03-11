@@ -33,7 +33,7 @@ const App = () => (
           <title>UsedTV Dubai - Buy & Sell Used TVs in Dubai, UAE | Best Prices</title>
           <meta name="description" content={`Dubai's #1 trusted platform for buying and selling used TVs. Samsung, LG, Sony & all brands. Instant cash, free pickup, same-day service. Call ${CONTACT.phoneDisplay}.`} />
           <meta name="keywords" content="used TV Dubai, buy used TV Dubai, sell used TV Dubai, second hand TV Dubai, used television UAE, cheap TV Dubai" />
-          <link rel="canonical" href={`${SITE_URL}/`} />
+          
         </Helmet>
         <Toaster />
         <Sonner />
