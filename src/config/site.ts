@@ -2,9 +2,9 @@
 export const SITE_URL = "https://www.usedtvdubai.com";
 
 export const CONTACT = {
-  phone: "+971557349696",
-  phoneDisplay: "+971 55 734 9696",
-  whatsapp: "https://wa.me/971557349696",
+  phone: "+971556807573",
+  phoneDisplay: "+971 55 680 7573",
+  whatsapp: "https://wa.me/971556807573",
   email: "hassanbrothers96@gmail.com",
   address: "Al Musalla Rd - Deira - Dubai - United Arab Emirates",
   addressShort: "Al Musalla Rd, Deira, Dubai",
