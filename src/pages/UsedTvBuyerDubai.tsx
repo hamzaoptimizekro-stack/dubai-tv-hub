@@ -126,14 +126,12 @@ export default function UsedTvBuyerDubai() {
           </ol>
 
           <h2 className="heading-highlight">What Types of TVs Do We Buy?</h2>
-          <p>We buy virtually every type of television available in the market. Our purchasing criteria are flexible because we have the expertise to refurbish, repair, or repurpose TVs of all conditions:</p>
+          <p>We buy all types of used televisions in working condition:</p>
           <ul>
             <li>LED, LCD, OLED, QLED, and Plasma TVs</li>
             <li>Smart TVs and non-smart (basic) TVs</li>
             <li>All sizes from 24 inches to 85 inches and above</li>
-            <li>Working, partially working, and completely non-functional TVs</li>
-            <li>TVs with cracked screens, dead pixels, or display issues</li>
-            <li>TVs missing remote controls, stands, or original packaging</li>
+            <li>TVs with minor cosmetic wear or missing remote controls</li>
             <li>Commercial and hospitality TVs (hotels, offices, restaurants)</li>
           </ul>
 
