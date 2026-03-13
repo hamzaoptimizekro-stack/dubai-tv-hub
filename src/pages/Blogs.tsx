@@ -46,6 +46,7 @@ export const blogs = [
   { slug: "how-to-spot-fake-tv-deals-dubai", title: "How to Spot Fake TV Deals in Dubai - Avoid Scams When Buying Used TVs", excerpt: "Protect yourself from fake TV deals and scams in Dubai. Learn the red flags and common scam tactics.", date: "2026-02-27", author: "Hassan Jamil" },
   { slug: "used-tv-for-sports-fans-dubai", title: "Best Used TV for Sports Fans in Dubai - Football, Cricket and F1 Guide", excerpt: "Find the best used TV for watching football, cricket, and F1 in Dubai. Motion handling and sports streaming setup.", date: "2026-02-26", author: "Hassan Jamil" },
   { slug: "used-tv-negotiation-tips-dubai", title: "How to Negotiate Used TV Prices in Dubai - Expert Bargaining Tips", excerpt: "Master the art of negotiating used TV prices in Dubai. Expert bargaining tips and fair price strategies.", date: "2026-02-24", author: "Hassan Jamil" },
+  { slug: "tv-electricity-consumption-dubai-guide", title: "TV Electricity Consumption Guide Dubai - How Much Power Does Your TV Use?", excerpt: "Complete guide to TV electricity consumption in Dubai. Learn how much power LED, OLED, and QLED TVs use and how to reduce your DEWA bill.", date: "2026-03-13", author: "Hassan Jamil" },
 ];
 
 const breadcrumbSchema = {
