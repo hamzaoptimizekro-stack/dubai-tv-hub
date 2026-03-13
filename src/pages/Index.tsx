@@ -37,7 +37,7 @@ const faqs = [
   { q: "Can I exchange my old TV for a newer model?", a: "Yes, we offer trade-in and exchange options. Sell your current TV to us and use the cash toward a better model from our inventory." },
   { q: "Are smart TV features working on used TVs?", a: "Yes, we verify all smart features including Wi-Fi, app store, streaming apps like Netflix and YouTube, and system updates before selling any smart TV." },
   { q: "What is the best brand for a used TV in Dubai?", a: "Samsung and LG are the most popular and reliable brands in the used market. Sony is great for premium quality. TCL and Hisense offer excellent value for budget buyers." },
-  { q: "Do you buy TVs with cracked screens?", a: "Yes, we buy TVs with cracked, broken, or damaged screens. We evaluate based on the internal components and offer fair pricing." },
+  { q: "Do you buy TVs with missing remotes?", a: "Yes, we buy TVs even without remote controls or original packaging, as long as the TV is in working condition with a clear picture and functional sound." },
   { q: "How do you determine the price of a used TV?", a: "We consider the brand, model, screen size, technology (LED, OLED, QLED), manufacturing year, condition, and current market demand to provide a fair valuation." },
   { q: "Do you serve areas outside Dubai?", a: "Yes, we serve all seven emirates including Sharjah, Ajman, Abu Dhabi, Ras Al Khaimah, Fujairah, and Umm Al Quwain with free pickup and delivery options." },
   { q: "Is UsedTV Dubai a licensed business?", a: `Yes, UsedTV Dubai is a fully licensed and registered trading business in Dubai, UAE. Founded by ${CONTACT.owner} with 7+ years of experience and 12 active businesses.` },
