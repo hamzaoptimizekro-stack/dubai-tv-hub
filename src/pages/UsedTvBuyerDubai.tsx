@@ -39,7 +39,7 @@ export default function UsedTvBuyerDubai() {
     email: CONTACT.email,
     address: { "@type": "PostalAddress", streetAddress: "Al Musalla Rd", addressLocality: "Dubai", addressCountry: "AE" },
     priceRange: "AED 100 - AED 4000",
-    description: "Dubai's #1 used TV buyer. Instant cash, free pickup, all brands and conditions accepted.",
+    description: "Dubai's #1 used TV buyer. Instant cash, free pickup, all brands accepted. Working condition TVs only.",
   };
 
   const serviceSchema = {

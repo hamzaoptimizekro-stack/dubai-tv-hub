@@ -264,7 +264,7 @@ export default function LocationServicePage() {
                 <li><strong>Instant cash payment</strong> - Get paid immediately when our team picks up your TV. No waiting for bank transfers.</li>
                 <li><strong>Best prices guaranteed</strong> - We offer the highest buyback rates for used TVs in {loc.name} and across the UAE.</li>
                 <li><strong>All brands accepted</strong> - Samsung, LG, Sony, TCL, Hisense, Toshiba, Panasonic, Philips, Sharp, Skyworth and all other brands.</li>
-                <li><strong>Any condition</strong> - Working, non-working, cracked screen, or damaged. We buy TVs in every condition.</li>
+                <li><strong>Working condition TVs</strong> - We buy used TVs that turn on, display properly, and have functional sound.</li>
                 <li><strong>Same-day service</strong> - In most cases, we arrange pickup within hours of your call.</li>
                 <li><strong>No hidden fees or deductions</strong> - The price we quote is the price you receive. Complete transparency.</li>
                 <li><strong>Professional handling</strong> - Our trained team safely dismounts and transports your TV.</li>
