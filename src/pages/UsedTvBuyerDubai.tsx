@@ -110,7 +110,7 @@ export default function UsedTvBuyerDubai() {
             <li><strong>Best prices guaranteed</strong> - We offer the highest buyback rates for used TVs in Dubai, consistently beating competitor offers by 10-20%.</li>
             <li><strong>Instant cash payment</strong> - No waiting for bank transfers or cheque clearance. You get cash in hand immediately when our team picks up your TV.</li>
             <li><strong>Free pickup from anywhere in Dubai</strong> - Our team comes to your doorstep whether you are in Deira, Bur Dubai, Marina, JBR, JLT, Downtown, Al Barsha, or any other area.</li>
-            <li><strong>All brands and conditions accepted</strong> - Working, non-working, cracked screen, cosmetic damage, missing remote, old or new models, we buy them all.</li>
+            <li><strong>All brands accepted</strong> - Samsung, LG, Sony, TCL, Hisense, and all other brands. We buy used TVs in working condition.</li>
             <li><strong>Same-day service</strong> - Most pickups are arranged within 2-3 hours of your call. No long waiting periods.</li>
             <li><strong>No hidden fees</strong> - The price we quote is the price you get. No deductions, no surprises.</li>
             <li><strong>Licensed and verified</strong> - We are a fully licensed trading business operating legally in Dubai.</li>
