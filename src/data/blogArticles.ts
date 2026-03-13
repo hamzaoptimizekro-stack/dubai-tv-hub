@@ -1246,8 +1246,8 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <h3>Minor Issues</h3>
 <p>TVs with minor problems like a missing remote, slight backlight bleed, or cosmetic scratches still have good value. Expect 10 to 20% less than a perfect condition unit.</p>
 
-<h3>Broken or Damaged TVs</h3>
-<p>Even broken TVs have value for parts and refurbishment. <a href="/blogs/sell-broken-tv-dubai">UsedTV Dubai buys broken TVs</a> with cracked screens, dead panels, and non-working units. You still get cash rather than paying for disposal.</p>
+<h3>TVs with Minor Wear</h3>
+<p>TVs with minor cosmetic issues like small scratches on the bezel or a missing remote are still accepted. We buy all used TVs in working condition. Contact <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> for a free valuation.</p>
 
 <h2>Step-by-Step: Selling to UsedTV Dubai</h2>
 <p>The fastest way to sell your used TV in Dubai is through <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a>. Here is how it works:</p>
