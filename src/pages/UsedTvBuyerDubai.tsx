@@ -48,7 +48,7 @@ export default function UsedTvBuyerDubai() {
     name: "Used TV Buying Service in Dubai",
     provider: { "@type": "LocalBusiness", name: "UsedTV Dubai" },
     areaServed: { "@type": "City", name: "Dubai" },
-    description: "Professional used TV buying service in Dubai. We buy all brands, all sizes, all conditions with instant cash and free pickup.",
+    description: "Professional used TV buying service in Dubai. We buy all brands, all sizes in working condition with instant cash and free pickup.",
   };
 
   const breadcrumbSchema = {
