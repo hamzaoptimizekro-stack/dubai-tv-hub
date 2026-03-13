@@ -1673,7 +1673,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
       { question: "Do you pick up from all areas in Dubai?", answer: "Yes, we offer free pickup from all areas in Dubai including JLT, Marina, Downtown, JVC, Al Nahda, Deira, Bur Dubai, Silicon Oasis, and all other communities. We also serve Sharjah, Ajman, and other emirates." },
     ],
     content: `<h2>Introduction: Turn Your Old TV into Cash Today</h2>
-<p>Have an old TV sitting unused in your Dubai apartment? Whether you have upgraded to a newer model, are moving out, or simply want to declutter, your old television has cash value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> buys used TVs of all brands, sizes, and conditions, with same-day pickup and instant cash payment.</p>
+<p>Have an old TV sitting unused in your Dubai apartment? Whether you have upgraded to a newer model, are moving out, or simply want to declutter, your old television has cash value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> buys used TVs of all brands and sizes in working condition, with same-day pickup and instant cash payment.</p>
 <p>Every day, hundreds of TVs in Dubai are thrown away or left behind when residents move. This is a waste of both money and resources. Your old Samsung, LG, Sony, or any brand TV can put AED 200 to AED 3,000+ in your pocket. This guide explains how to sell your old TV quickly and get the best cash price.</p>
 
 <h2>What Old TVs We Buy in Dubai</h2>
