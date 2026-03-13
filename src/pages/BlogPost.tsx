@@ -608,7 +608,7 @@ const blogContent: Record<string, { title: string; date: string; metaDescription
 <h2>How to Shop Eco-Friendly for Electronics in Dubai</h2>
 <ul>
 <li><strong>Buy used first:</strong> Before purchasing any electronic device new, check the used market. You may find the exact model you want at a fraction of the price. Start at <a href="/service/used-tv-seller-dubai">UsedTV Dubai</a>.</li>
-<li><strong>Sell instead of discard:</strong> When upgrading, sell your old electronics through <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> rather than throwing them away. Even broken TVs have value. See our <a href="/blogs/sell-broken-tv-dubai">broken TV buying guide</a>.</li>
+<li><strong>Sell instead of discard:</strong> When upgrading, sell your old electronics through <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> rather than throwing them away. Used TVs in working condition have great resale value.</li>
 <li><strong>Choose energy-efficient models:</strong> When buying used, newer models tend to be more energy-efficient. An energy-efficient TV saves both money and carbon emissions over its remaining lifespan.</li>
 <li><strong>Proper disposal:</strong> If an electronic device is truly beyond use, take it to a certified e-waste recycling center rather than putting it in regular trash.</li>
 <li><strong>Spread awareness:</strong> Share the benefits of buying used with friends, family, and colleagues. The more people participate in the circular economy, the greater the environmental impact.</li>
