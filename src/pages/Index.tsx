@@ -23,7 +23,7 @@ const testimonials = [
 const faqs = [
   { q: "Where can I sell my used TV in Dubai?", a: `You can sell your used TV at UsedTV Dubai. We are located at ${CONTACT.address}. We offer instant cash payment and free pickup across Dubai, Sharjah, Ajman, and all other emirates.` },
   { q: "How much can I get for my used TV?", a: "The price depends on brand, size, model year, and condition. Samsung, LG, and Sony TVs typically get the best resale value. Contact us for a free, no-obligation valuation." },
-  { q: "Do you buy broken or damaged TVs?", a: "Yes, we purchase TVs in all conditions including working, non-working, cracked screen, water damaged, and TVs with missing remotes or stands." },
+  { q: "What condition should my TV be in to sell it?", a: "We buy used TVs in working condition only. The TV should turn on, display a clear picture, and have functional sound. Minor cosmetic wear or a missing remote is acceptable." },
   { q: "Which TV brands do you buy and sell?", a: "We deal in all major brands: Samsung, LG, Sony, TCL, Hisense, Toshiba, Panasonic, Philips, Sharp, Skyworth, Haier, JVC, Hitachi, and more." },
   { q: "Do you offer free pickup service?", a: "Yes, we provide free pickup across Dubai, Sharjah, Ajman, Abu Dhabi, and other UAE emirates. Our team will visit your location at a time convenient for you." },
   { q: "How fast is the buying/selling process?", a: "Most transactions are completed within 1-2 hours. Call us, get a quote, and we arrange immediate pickup or delivery." },
