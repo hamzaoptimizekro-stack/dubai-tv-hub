@@ -570,7 +570,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
   "tv-repair-vs-buy-used-dubai": {
     title: "TV Repair vs Buy Used in Dubai - Which Saves More Money?",
     date: "2026-02-19",
-    metaDescription: "Should you repair your broken TV or buy a used replacement in Dubai? Complete cost comparison, repair prices, and when each option makes financial sense.",
+    metaDescription: "Should you repair your old TV or buy a used replacement in Dubai? Complete cost comparison, repair prices, and when each option makes financial sense.",
     faqs: [
       { question: "How much does TV repair cost in Dubai?", answer: "TV repair costs in Dubai vary: backlight repair AED 200-500, power board replacement AED 150-400, main board repair AED 300-800, screen replacement AED 1,000-5,000+. Screen replacement is almost never worth it as a quality used TV costs less." },
       { question: "Is it worth repairing a 5-year-old TV?", answer: "Generally no. A 5-year-old TV has outdated smart features, lower picture quality, and reduced energy efficiency. If the repair costs more than 40% of a comparable used TV's price, buying used is the better financial decision." },
