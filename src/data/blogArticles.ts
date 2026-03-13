@@ -1666,7 +1666,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
     date: "2026-03-04",
     metaDescription: "Sell your old TV for instant cash in Dubai. Same-day pickup and payment for all brands and conditions. Samsung, LG, Sony TVs wanted. Call UsedTV Dubai now.",
     faqs: [
-      { question: "How do I sell my old TV for cash in Dubai?", answer: "Call or WhatsApp UsedTV Dubai at ${CONTACT.phoneDisplay}. Send photos of your TV, receive an instant quote, and get same-day pickup with cash payment at your doorstep. We buy all brands and conditions." },
+      { question: "How do I sell my old TV for cash in Dubai?", answer: "Call or WhatsApp UsedTV Dubai at ${CONTACT.phoneDisplay}. Send photos of your TV, receive an instant quote, and get same-day pickup with cash payment at your doorstep. We buy all brands in working condition." },
       { question: "How much cash will I get for my old TV?", answer: "Cash value depends on brand, size, age, and condition. Samsung 55-inch: AED 300-1,200. LG 55-inch: AED 400-1,800. Sony 55-inch: AED 400-1,400. Contact us for an exact quote based on your specific model." },
       { question: "Do you buy old CRT and plasma TVs?", answer: "We primarily buy flat-screen LED, OLED, and QLED TVs. CRT and plasma TVs have very limited resale value. Contact us to discuss - we may be able to help with disposal or offer a small amount for working plasma units." },
       { question: "Can I sell a TV that is not working?", answer: "Yes, UsedTV Dubai buys non-working TVs for parts and refurbishment. The price is lower than working units, but you still get cash rather than paying for disposal. Cracked screens, dead backlights, and other issues are accepted." },
