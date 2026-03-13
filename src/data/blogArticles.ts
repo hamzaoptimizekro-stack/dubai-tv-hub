@@ -1696,7 +1696,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <tr><td>Smart LED (1-3 yrs)</td><td>AED 150-400</td><td>AED 400-800</td><td>AED 600-1,200</td><td>AED 900-2,000</td></tr>
 <tr><td>QLED (1-3 yrs)</td><td>AED 300-600</td><td>AED 600-1,400</td><td>AED 900-2,000</td><td>AED 1,500-3,000</td></tr>
 <tr><td>OLED (1-3 yrs)</td><td>N/A</td><td>AED 900-2,000</td><td>AED 1,500-3,000</td><td>AED 2,000-4,000</td></tr>
-<tr><td>Damaged/Non-working</td><td>AED 20-80</td><td>AED 50-200</td><td>AED 80-350</td><td>AED 100-500</td></tr>
+<tr><td>Older (5+ yrs, working)</td><td>AED 50-150</td><td>AED 100-300</td><td>AED 150-400</td><td>AED 200-600</td></tr>
 </tbody>
 </table>
 
