@@ -1735,7 +1735,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <tr><td>Price</td><td>Fair market</td><td>Variable</td><td>Low</td></tr>
 <tr><td>Convenience</td><td>Free pickup</td><td>You arrange</td><td>May charge</td></tr>
 <tr><td>Payment</td><td>Instant cash</td><td>After meeting</td><td>After inspection</td></tr>
-<tr><td>All Conditions</td><td>Yes</td><td>Working only</td><td>Some</td></tr>
+<tr><td>Working TVs</td><td>Yes</td><td>Working only</td><td>Some</td></tr>
 <tr><td>Safety</td><td>Professional</td><td>Strangers</td><td>Variable</td></tr>
 </tbody>
 </table>

@@ -65,7 +65,7 @@ export default function Services() {
               <Tv className="w-10 h-10 text-primary mb-4" />
               <h3 className="font-heading font-bold text-xl mb-3">Used TV Buying Service</h3>
               <p className="text-muted-foreground mb-4">
-                Sell your used TV for the best price. We buy all brands (Samsung, LG, Sony, TCL, Hisense) in any condition. Working, broken, cracked screen - we accept them all.
+                Sell your used TV for the best price. We buy all brands (Samsung, LG, Sony, TCL, Hisense) in working condition. Get instant cash and free pickup.
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground mb-6">
                 <li className="flex items-center gap-2"><ArrowRight className="w-3.5 h-3.5 text-primary" /> Instant cash payment</li>
