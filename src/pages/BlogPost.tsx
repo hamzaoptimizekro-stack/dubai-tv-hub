@@ -122,8 +122,8 @@ const blogContent: Record<string, { title: string; date: string; metaDescription
 <li><strong>Sell before upgrading:</strong> If you are planning to buy a new TV, sell your current one first to maximize your budget for the upgrade.</li>
 </ul>
 
-<h2>What If My TV Is Broken or Damaged?</h2>
-<p>Even if your TV is not working properly, it still has value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> purchases TVs in all conditions, including units with cracked screens, power supply issues, display problems, and other defects. Broken TVs contain valuable components that can be harvested for repairs, including power boards, main boards, T-con boards, and backlight strips. Read our dedicated guide on <a href="/blogs/sell-broken-tv-dubai">how to sell a broken TV in Dubai</a> for more details.</p>
+<h2>Sell Your Used TV Quickly</h2>
+<p>Whether you are upgrading, relocating, or decluttering, <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> buys used TVs in working condition. We accept all brands and sizes with instant cash payment and free pickup from anywhere in Dubai.</p>
 
 <h2>Selling Multiple TVs or Bulk Quantities</h2>
 <p>If you are a hotel manager, property landlord, office administrator, or business owner with multiple TVs to sell, we offer a specialized bulk buying service. We purchase TVs in any quantity and provide special bulk pricing. Our team handles the entire process from evaluation to removal, minimizing disruption to your operations. Contact us at ${CONTACT.phoneDisplay} to discuss bulk selling options.</p>
