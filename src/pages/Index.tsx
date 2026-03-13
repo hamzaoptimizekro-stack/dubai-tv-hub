@@ -257,7 +257,7 @@ export default function Index() {
             <li><strong>Get instant cash</strong> - Once our team inspects the TV at your location, you will receive immediate cash payment.</li>
           </ol>
           <p>
-            We buy <strong>all types of used TVs</strong> including LED, LCD, OLED, QLED, Plasma, Smart TVs, and even broken or non-functioning units. No matter the condition, we will offer you the best price in the market. Learn more on our <Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> page.
+            We buy <strong>all types of used TVs in working condition</strong> including LED, LCD, OLED, QLED, Plasma, and Smart TVs. We offer you the best price in the market. Learn more on our <Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> page.
           </p>
 
           <h2 className="heading-highlight">Used TV Prices in Dubai - What to Expect</h2>
