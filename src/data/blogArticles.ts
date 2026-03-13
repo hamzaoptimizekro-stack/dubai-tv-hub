@@ -1685,8 +1685,8 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <h3>All Sizes from 32 to 85 Inches</h3>
 <p>We buy TVs from compact 32-inch bedroom models to massive 85-inch living room displays. Larger TVs (55 inches and above) typically fetch better prices due to higher demand.</p>
 
-<h3>All Conditions</h3>
-<p>Working perfectly, minor issues, cosmetic damage, or not working at all - we buy TVs in every condition. Even a TV with a cracked screen has value for parts and components.</p>
+<h3>Working Condition Only</h3>
+<p>We buy used TVs in working condition. The TV should turn on, display a clear picture, and have functional sound. Minor cosmetic wear like small scratches on the bezel or a missing remote control is perfectly acceptable.</p>
 
 <h2>Cash Value Guide for Old TVs in Dubai</h2>
 <table>
