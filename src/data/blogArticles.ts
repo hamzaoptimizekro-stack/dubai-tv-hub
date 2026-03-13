@@ -646,14 +646,14 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <h3>Step 3: Compare with Used TV Prices</h3>
 <p>Once you have repair quotes, compare them against the price of a similar used TV. Check our <a href="/blogs/used-tv-price-guide-uae">price guide</a> for current used TV values in Dubai.</p>
 
-<h2>Sell Your Broken TV and Upgrade</h2>
-<p>Even if your TV is broken, it has value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai buys broken and damaged TVs</a> for parts and refurbishment. You can sell your broken TV for cash and put the money toward a quality used replacement, effectively upgrading your TV for a small net cost.</p>
+<h2>Sell Your Old TV and Upgrade</h2>
+<p>If your TV is old and repair costs are high, consider selling it while it still works. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai buys used TVs in working condition</a> and offers instant cash. You can use the money toward a quality used replacement, effectively upgrading your TV for a small net cost.</p>
 
 <h3>Example Upgrade Path</h3>
-<p>Your 5-year-old 55" TV breaks down. Repair quote: AED 600. Instead: sell the broken TV to UsedTV Dubai for AED 150, buy a newer used 55" TV for AED 800. Net cost: AED 650, and you get a significantly better TV with modern features and a warranty.</p>
+<p>Your 5-year-old 55" TV needs expensive repairs. Instead of paying AED 600 for repair: sell the TV to UsedTV Dubai while it still works for AED 400, buy a newer used 55" TV for AED 800. Net cost: AED 400, and you get a significantly better TV with modern features and a warranty.</p>
 
 <h2>Making the Right Decision</h2>
-<p>Contact UsedTV Dubai at <strong>${CONTACT.phoneDisplay}</strong> for a free valuation of your broken TV and current pricing on quality used replacements. We can help you calculate the most cost-effective option for your specific situation. Visit our showroom at ${CONTACT.address} to browse available TVs or read more guides on our <a href="/blogs">blog</a>.</p>`,
+<p>Contact UsedTV Dubai at <strong>${CONTACT.phoneDisplay}</strong> for a free valuation of your used TV and current pricing on quality used replacements. We can help you calculate the most cost-effective option for your specific situation. Visit our showroom at ${CONTACT.address} to browse available TVs or read more guides on our <a href="/blogs">blog</a>.</p>`,
   },
 
   "best-places-buy-used-electronics-dubai": {
