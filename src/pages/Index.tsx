@@ -23,7 +23,7 @@ const testimonials = [
 const faqs = [
   { q: "Where can I sell my used TV in Dubai?", a: `You can sell your used TV at UsedTV Dubai. We are located at ${CONTACT.address}. We offer instant cash payment and free pickup across Dubai, Sharjah, Ajman, and all other emirates.` },
   { q: "How much can I get for my used TV?", a: "The price depends on brand, size, model year, and condition. Samsung, LG, and Sony TVs typically get the best resale value. Contact us for a free, no-obligation valuation." },
-  { q: "Do you buy broken or damaged TVs?", a: "Yes, we purchase TVs in all conditions including working, non-working, cracked screen, water damaged, and TVs with missing remotes or stands." },
+  { q: "What condition should my TV be in to sell it?", a: "We buy used TVs in working condition only. The TV should turn on, display a clear picture, and have functional sound. Minor cosmetic wear or a missing remote is acceptable." },
   { q: "Which TV brands do you buy and sell?", a: "We deal in all major brands: Samsung, LG, Sony, TCL, Hisense, Toshiba, Panasonic, Philips, Sharp, Skyworth, Haier, JVC, Hitachi, and more." },
   { q: "Do you offer free pickup service?", a: "Yes, we provide free pickup across Dubai, Sharjah, Ajman, Abu Dhabi, and other UAE emirates. Our team will visit your location at a time convenient for you." },
   { q: "How fast is the buying/selling process?", a: "Most transactions are completed within 1-2 hours. Call us, get a quote, and we arrange immediate pickup or delivery." },
@@ -37,7 +37,7 @@ const faqs = [
   { q: "Can I exchange my old TV for a newer model?", a: "Yes, we offer trade-in and exchange options. Sell your current TV to us and use the cash toward a better model from our inventory." },
   { q: "Are smart TV features working on used TVs?", a: "Yes, we verify all smart features including Wi-Fi, app store, streaming apps like Netflix and YouTube, and system updates before selling any smart TV." },
   { q: "What is the best brand for a used TV in Dubai?", a: "Samsung and LG are the most popular and reliable brands in the used market. Sony is great for premium quality. TCL and Hisense offer excellent value for budget buyers." },
-  { q: "Do you buy TVs with cracked screens?", a: "Yes, we buy TVs with cracked, broken, or damaged screens. We evaluate based on the internal components and offer fair pricing." },
+  { q: "Do you buy TVs with missing remotes?", a: "Yes, we buy TVs even without remote controls or original packaging, as long as the TV is in working condition with a clear picture and functional sound." },
   { q: "How do you determine the price of a used TV?", a: "We consider the brand, model, screen size, technology (LED, OLED, QLED), manufacturing year, condition, and current market demand to provide a fair valuation." },
   { q: "Do you serve areas outside Dubai?", a: "Yes, we serve all seven emirates including Sharjah, Ajman, Abu Dhabi, Ras Al Khaimah, Fujairah, and Umm Al Quwain with free pickup and delivery options." },
   { q: "Is UsedTV Dubai a licensed business?", a: `Yes, UsedTV Dubai is a fully licensed and registered trading business in Dubai, UAE. Founded by ${CONTACT.owner} with 7+ years of experience and 12 active businesses.` },
@@ -257,7 +257,7 @@ export default function Index() {
             <li><strong>Get instant cash</strong> - Once our team inspects the TV at your location, you will receive immediate cash payment.</li>
           </ol>
           <p>
-            We buy <strong>all types of used TVs</strong> including LED, LCD, OLED, QLED, Plasma, Smart TVs, and even broken or non-functioning units. No matter the condition, we will offer you the best price in the market. Learn more on our <Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> page.
+            We buy <strong>all types of used TVs in working condition</strong> including LED, LCD, OLED, QLED, Plasma, and Smart TVs. We offer you the best price in the market. Learn more on our <Link to="/service/used-tv-buyer-dubai" className="text-primary font-semibold hover:underline">Used TV Buyer in Dubai</Link> page.
           </p>
 
           <h2 className="heading-highlight">Used TV Prices in Dubai - What to Expect</h2>

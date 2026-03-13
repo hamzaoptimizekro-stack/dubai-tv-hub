@@ -570,12 +570,12 @@ export const newBlogContent: Record<string, BlogEntry> = {
   "tv-repair-vs-buy-used-dubai": {
     title: "TV Repair vs Buy Used in Dubai - Which Saves More Money?",
     date: "2026-02-19",
-    metaDescription: "Should you repair your broken TV or buy a used replacement in Dubai? Complete cost comparison, repair prices, and when each option makes financial sense.",
+    metaDescription: "Should you repair your old TV or buy a used replacement in Dubai? Complete cost comparison, repair prices, and when each option makes financial sense.",
     faqs: [
       { question: "How much does TV repair cost in Dubai?", answer: "TV repair costs in Dubai vary: backlight repair AED 200-500, power board replacement AED 150-400, main board repair AED 300-800, screen replacement AED 1,000-5,000+. Screen replacement is almost never worth it as a quality used TV costs less." },
       { question: "Is it worth repairing a 5-year-old TV?", answer: "Generally no. A 5-year-old TV has outdated smart features, lower picture quality, and reduced energy efficiency. If the repair costs more than 40% of a comparable used TV's price, buying used is the better financial decision." },
       { question: "Where can I find TV repair shops in Dubai?", answer: "TV repair shops are concentrated in areas like Al Fahidi, Naif Road, and Computer Plaza in Bur Dubai. However, before paying for repairs, get a quote and compare it against the cost of a quality used replacement from dealers like UsedTV Dubai." },
-      { question: "Can I sell a broken TV in Dubai?", answer: "Yes. Dealers like UsedTV Dubai buy broken and damaged TVs for parts and refurbishment. Even non-working TVs have value. Contact us at +971 55 734 9696 for a free valuation of your broken TV." },
+      { question: "Can I sell my old TV in Dubai?", answer: "Yes. UsedTV Dubai buys used TVs in working condition. We offer instant cash, free pickup, and the best prices for all brands and sizes. Contact us at ${CONTACT.phoneDisplay} for a free valuation." },
       { question: "How long does TV repair take in Dubai?", answer: "Simple repairs like power board replacement take 1-3 days. Main board repairs may take 3-7 days if parts need to be ordered. Screen replacements can take 1-2 weeks. During this time, you are without a TV, which is an additional cost to consider." },
     ],
     content: `<h2>Introduction: The Repair or Replace Dilemma</h2>
@@ -646,14 +646,14 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <h3>Step 3: Compare with Used TV Prices</h3>
 <p>Once you have repair quotes, compare them against the price of a similar used TV. Check our <a href="/blogs/used-tv-price-guide-uae">price guide</a> for current used TV values in Dubai.</p>
 
-<h2>Sell Your Broken TV and Upgrade</h2>
-<p>Even if your TV is broken, it has value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai buys broken and damaged TVs</a> for parts and refurbishment. You can sell your broken TV for cash and put the money toward a quality used replacement, effectively upgrading your TV for a small net cost.</p>
+<h2>Sell Your Old TV and Upgrade</h2>
+<p>If your TV is old and repair costs are high, consider selling it while it still works. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai buys used TVs in working condition</a> and offers instant cash. You can use the money toward a quality used replacement, effectively upgrading your TV for a small net cost.</p>
 
 <h3>Example Upgrade Path</h3>
-<p>Your 5-year-old 55" TV breaks down. Repair quote: AED 600. Instead: sell the broken TV to UsedTV Dubai for AED 150, buy a newer used 55" TV for AED 800. Net cost: AED 650, and you get a significantly better TV with modern features and a warranty.</p>
+<p>Your 5-year-old 55" TV needs expensive repairs. Instead of paying AED 600 for repair: sell the TV to UsedTV Dubai while it still works for AED 400, buy a newer used 55" TV for AED 800. Net cost: AED 400, and you get a significantly better TV with modern features and a warranty.</p>
 
 <h2>Making the Right Decision</h2>
-<p>Contact UsedTV Dubai at <strong>${CONTACT.phoneDisplay}</strong> for a free valuation of your broken TV and current pricing on quality used replacements. We can help you calculate the most cost-effective option for your specific situation. Visit our showroom at ${CONTACT.address} to browse available TVs or read more guides on our <a href="/blogs">blog</a>.</p>`,
+<p>Contact UsedTV Dubai at <strong>${CONTACT.phoneDisplay}</strong> for a free valuation of your used TV and current pricing on quality used replacements. We can help you calculate the most cost-effective option for your specific situation. Visit our showroom at ${CONTACT.address} to browse available TVs or read more guides on our <a href="/blogs">blog</a>.</p>`,
   },
 
   "best-places-buy-used-electronics-dubai": {
@@ -1156,7 +1156,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
       { question: "How much can I sell my used TV for in Dubai?", answer: "Used TV prices in Dubai depend on brand, size, age, and condition. A 55-inch Samsung from 2022 sells for AED 800 to AED 1,400. A 65-inch LG OLED fetches AED 1,500 to AED 2,800. Contact UsedTV Dubai at ${CONTACT.phoneDisplay} for an instant free quote." },
       { question: "Where is the best place to sell a used TV in Dubai?", answer: "The best place is a professional used TV dealer like UsedTV Dubai. You get instant cash, free pickup, and no haggling with strangers. Online marketplaces like Dubizzle work but take longer and involve more effort." },
       { question: "Do I need to factory reset my TV before selling?", answer: "Yes, always factory reset your smart TV before selling. This removes your streaming accounts, WiFi passwords, and personal data. Go to Settings > General > Reset on most TVs." },
-      { question: "Will UsedTV Dubai buy a TV with a cracked screen?", answer: "Yes, UsedTV Dubai buys TVs in any condition including cracked screens, dead pixels, and non-working units. The price will be lower, but you still get cash for damaged TVs rather than paying for disposal." },
+      { question: "Does UsedTV Dubai only buy working TVs?", answer: "Yes, we buy used TVs in working condition only. The TV should turn on, display a clear picture, and have functional sound. Minor cosmetic wear or a missing remote is acceptable. Contact us at ${CONTACT.phoneDisplay} for a free quote." },
       { question: "How fast can I sell my TV to UsedTV Dubai?", answer: "Same day. Call or WhatsApp us at ${CONTACT.phoneDisplay}, send photos of your TV, receive an instant quote, and we pick up and pay cash within hours anywhere in Dubai and surrounding emirates." },
     ],
     content: `<h2>Introduction: Why Selling Your Used TV in Dubai is Easier Than Ever</h2>
@@ -1246,8 +1246,8 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <h3>Minor Issues</h3>
 <p>TVs with minor problems like a missing remote, slight backlight bleed, or cosmetic scratches still have good value. Expect 10 to 20% less than a perfect condition unit.</p>
 
-<h3>Broken or Damaged TVs</h3>
-<p>Even broken TVs have value for parts and refurbishment. <a href="/blogs/sell-broken-tv-dubai">UsedTV Dubai buys broken TVs</a> with cracked screens, dead panels, and non-working units. You still get cash rather than paying for disposal.</p>
+<h3>TVs with Minor Wear</h3>
+<p>TVs with minor cosmetic issues like small scratches on the bezel or a missing remote are still accepted. We buy all used TVs in working condition. Contact <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> for a free valuation.</p>
 
 <h2>Step-by-Step: Selling to UsedTV Dubai</h2>
 <p>The fastest way to sell your used TV in Dubai is through <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a>. Here is how it works:</p>
@@ -1666,14 +1666,14 @@ export const newBlogContent: Record<string, BlogEntry> = {
     date: "2026-03-04",
     metaDescription: "Sell your old TV for instant cash in Dubai. Same-day pickup and payment for all brands and conditions. Samsung, LG, Sony TVs wanted. Call UsedTV Dubai now.",
     faqs: [
-      { question: "How do I sell my old TV for cash in Dubai?", answer: "Call or WhatsApp UsedTV Dubai at ${CONTACT.phoneDisplay}. Send photos of your TV, receive an instant quote, and get same-day pickup with cash payment at your doorstep. We buy all brands and conditions." },
+      { question: "How do I sell my old TV for cash in Dubai?", answer: "Call or WhatsApp UsedTV Dubai at ${CONTACT.phoneDisplay}. Send photos of your TV, receive an instant quote, and get same-day pickup with cash payment at your doorstep. We buy all brands in working condition." },
       { question: "How much cash will I get for my old TV?", answer: "Cash value depends on brand, size, age, and condition. Samsung 55-inch: AED 300-1,200. LG 55-inch: AED 400-1,800. Sony 55-inch: AED 400-1,400. Contact us for an exact quote based on your specific model." },
       { question: "Do you buy old CRT and plasma TVs?", answer: "We primarily buy flat-screen LED, OLED, and QLED TVs. CRT and plasma TVs have very limited resale value. Contact us to discuss - we may be able to help with disposal or offer a small amount for working plasma units." },
-      { question: "Can I sell a TV that is not working?", answer: "Yes, UsedTV Dubai buys non-working TVs for parts and refurbishment. The price is lower than working units, but you still get cash rather than paying for disposal. Cracked screens, dead backlights, and other issues are accepted." },
+      { question: "Do you only buy working TVs?", answer: "Yes, we buy used TVs in working condition only. The TV should turn on, display a clear picture, and have functional sound. Minor cosmetic wear or a missing remote is acceptable." },
       { question: "Do you pick up from all areas in Dubai?", answer: "Yes, we offer free pickup from all areas in Dubai including JLT, Marina, Downtown, JVC, Al Nahda, Deira, Bur Dubai, Silicon Oasis, and all other communities. We also serve Sharjah, Ajman, and other emirates." },
     ],
     content: `<h2>Introduction: Turn Your Old TV into Cash Today</h2>
-<p>Have an old TV sitting unused in your Dubai apartment? Whether you have upgraded to a newer model, are moving out, or simply want to declutter, your old television has cash value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> buys used TVs of all brands, sizes, and conditions, with same-day pickup and instant cash payment.</p>
+<p>Have an old TV sitting unused in your Dubai apartment? Whether you have upgraded to a newer model, are moving out, or simply want to declutter, your old television has cash value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> buys used TVs of all brands and sizes in working condition, with same-day pickup and instant cash payment.</p>
 <p>Every day, hundreds of TVs in Dubai are thrown away or left behind when residents move. This is a waste of both money and resources. Your old Samsung, LG, Sony, or any brand TV can put AED 200 to AED 3,000+ in your pocket. This guide explains how to sell your old TV quickly and get the best cash price.</p>
 
 <h2>What Old TVs We Buy in Dubai</h2>
@@ -1685,8 +1685,8 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <h3>All Sizes from 32 to 85 Inches</h3>
 <p>We buy TVs from compact 32-inch bedroom models to massive 85-inch living room displays. Larger TVs (55 inches and above) typically fetch better prices due to higher demand.</p>
 
-<h3>All Conditions</h3>
-<p>Working perfectly, minor issues, cosmetic damage, or not working at all - we buy TVs in every condition. Even a TV with a cracked screen has value for parts and components.</p>
+<h3>Working Condition Only</h3>
+<p>We buy used TVs in working condition. The TV should turn on, display a clear picture, and have functional sound. Minor cosmetic wear like small scratches on the bezel or a missing remote control is perfectly acceptable.</p>
 
 <h2>Cash Value Guide for Old TVs in Dubai</h2>
 <table>
@@ -1696,7 +1696,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <tr><td>Smart LED (1-3 yrs)</td><td>AED 150-400</td><td>AED 400-800</td><td>AED 600-1,200</td><td>AED 900-2,000</td></tr>
 <tr><td>QLED (1-3 yrs)</td><td>AED 300-600</td><td>AED 600-1,400</td><td>AED 900-2,000</td><td>AED 1,500-3,000</td></tr>
 <tr><td>OLED (1-3 yrs)</td><td>N/A</td><td>AED 900-2,000</td><td>AED 1,500-3,000</td><td>AED 2,000-4,000</td></tr>
-<tr><td>Damaged/Non-working</td><td>AED 20-80</td><td>AED 50-200</td><td>AED 80-350</td><td>AED 100-500</td></tr>
+<tr><td>Older (5+ yrs, working)</td><td>AED 50-150</td><td>AED 100-300</td><td>AED 150-400</td><td>AED 200-600</td></tr>
 </tbody>
 </table>
 
@@ -1735,7 +1735,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <tr><td>Price</td><td>Fair market</td><td>Variable</td><td>Low</td></tr>
 <tr><td>Convenience</td><td>Free pickup</td><td>You arrange</td><td>May charge</td></tr>
 <tr><td>Payment</td><td>Instant cash</td><td>After meeting</td><td>After inspection</td></tr>
-<tr><td>All Conditions</td><td>Yes</td><td>Working only</td><td>Some</td></tr>
+<tr><td>Working TVs</td><td>Yes</td><td>Working only</td><td>Some</td></tr>
 <tr><td>Safety</td><td>Professional</td><td>Strangers</td><td>Variable</td></tr>
 </tbody>
 </table>

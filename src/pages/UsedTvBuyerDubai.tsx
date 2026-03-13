@@ -8,7 +8,7 @@ import PageBreadcrumb from "@/components/PageBreadcrumb";
 const faqs = [
   { q: "Where can I sell my used TV in Dubai?", a: `You can sell your used TV at UsedTV Dubai. We are located at ${CONTACT.address}. We offer instant cash payment and free pickup from anywhere in Dubai. Call ${CONTACT.phoneDisplay} for a free quote.` },
   { q: "How much can I get for my used TV in Dubai?", a: "The price depends on brand, size, model year, and condition. Samsung, LG, and Sony TVs typically get the best resale value. A 55-inch 4K TV can fetch AED 400-1,200 depending on condition. Contact us for a free, no-obligation valuation." },
-  { q: "Do you buy broken or damaged TVs in Dubai?", a: "Yes, we purchase TVs in all conditions including working, non-working, cracked screen, water damaged, and even TVs with missing remotes. We offer fair prices based on parts and repair value." },
+  { q: "What condition should my TV be in to sell it?", a: "We only buy used TVs in working condition. The TV should turn on, display a clear picture, and have functional sound. TVs with minor cosmetic wear or missing remotes are still accepted." },
   { q: "Which TV brands do you buy in Dubai?", a: "We buy all major brands including Samsung, LG, Sony, TCL, Hisense, Toshiba, Panasonic, Philips, Sharp, Skyworth, Haier, JVC, Hitachi, and any other brand available in the UAE market." },
   { q: "Do you offer free pickup service in Dubai?", a: "Yes, we provide completely free pickup from any location in Dubai including Deira, Bur Dubai, Marina, JBR, JLT, Downtown, Al Barsha, Silicon Oasis, and all other areas. We also serve Sharjah, Ajman, and other emirates." },
   { q: "How fast is the used TV selling process?", a: "Most transactions are completed within 1-2 hours. Call us, get an instant quote, and we arrange immediate pickup from your location with cash payment on the spot." },
@@ -39,7 +39,7 @@ export default function UsedTvBuyerDubai() {
     email: CONTACT.email,
     address: { "@type": "PostalAddress", streetAddress: "Al Musalla Rd", addressLocality: "Dubai", addressCountry: "AE" },
     priceRange: "AED 100 - AED 4000",
-    description: "Dubai's #1 used TV buyer. Instant cash, free pickup, all brands and conditions accepted.",
+    description: "Dubai's #1 used TV buyer. Instant cash, free pickup, all brands accepted. Working condition TVs only.",
   };
 
   const serviceSchema = {
@@ -48,7 +48,7 @@ export default function UsedTvBuyerDubai() {
     name: "Used TV Buying Service in Dubai",
     provider: { "@type": "LocalBusiness", name: "UsedTV Dubai" },
     areaServed: { "@type": "City", name: "Dubai" },
-    description: "Professional used TV buying service in Dubai. We buy all brands, all sizes, all conditions with instant cash and free pickup.",
+    description: "Professional used TV buying service in Dubai. We buy all brands, all sizes in working condition with instant cash and free pickup.",
   };
 
   const breadcrumbSchema = {
@@ -110,7 +110,7 @@ export default function UsedTvBuyerDubai() {
             <li><strong>Best prices guaranteed</strong> - We offer the highest buyback rates for used TVs in Dubai, consistently beating competitor offers by 10-20%.</li>
             <li><strong>Instant cash payment</strong> - No waiting for bank transfers or cheque clearance. You get cash in hand immediately when our team picks up your TV.</li>
             <li><strong>Free pickup from anywhere in Dubai</strong> - Our team comes to your doorstep whether you are in Deira, Bur Dubai, Marina, JBR, JLT, Downtown, Al Barsha, or any other area.</li>
-            <li><strong>All brands and conditions accepted</strong> - Working, non-working, cracked screen, cosmetic damage, missing remote, old or new models, we buy them all.</li>
+            <li><strong>All brands accepted</strong> - Samsung, LG, Sony, TCL, Hisense, and all other brands. We buy used TVs in working condition.</li>
             <li><strong>Same-day service</strong> - Most pickups are arranged within 2-3 hours of your call. No long waiting periods.</li>
             <li><strong>No hidden fees</strong> - The price we quote is the price you get. No deductions, no surprises.</li>
             <li><strong>Licensed and verified</strong> - We are a fully licensed trading business operating legally in Dubai.</li>
@@ -126,14 +126,12 @@ export default function UsedTvBuyerDubai() {
           </ol>
 
           <h2 className="heading-highlight">What Types of TVs Do We Buy?</h2>
-          <p>We buy virtually every type of television available in the market. Our purchasing criteria are flexible because we have the expertise to refurbish, repair, or repurpose TVs of all conditions:</p>
+          <p>We buy all types of used televisions in working condition:</p>
           <ul>
             <li>LED, LCD, OLED, QLED, and Plasma TVs</li>
             <li>Smart TVs and non-smart (basic) TVs</li>
             <li>All sizes from 24 inches to 85 inches and above</li>
-            <li>Working, partially working, and completely non-functional TVs</li>
-            <li>TVs with cracked screens, dead pixels, or display issues</li>
-            <li>TVs missing remote controls, stands, or original packaging</li>
+            <li>TVs with minor cosmetic wear or missing remote controls</li>
             <li>Commercial and hospitality TVs (hotels, offices, restaurants)</li>
           </ul>
 

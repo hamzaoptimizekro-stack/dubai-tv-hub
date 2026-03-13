@@ -122,8 +122,8 @@ const blogContent: Record<string, { title: string; date: string; metaDescription
 <li><strong>Sell before upgrading:</strong> If you are planning to buy a new TV, sell your current one first to maximize your budget for the upgrade.</li>
 </ul>
 
-<h2>What If My TV Is Broken or Damaged?</h2>
-<p>Even if your TV is not working properly, it still has value. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> purchases TVs in all conditions, including units with cracked screens, power supply issues, display problems, and other defects. Broken TVs contain valuable components that can be harvested for repairs, including power boards, main boards, T-con boards, and backlight strips. Read our dedicated guide on <a href="/blogs/sell-broken-tv-dubai">how to sell a broken TV in Dubai</a> for more details.</p>
+<h2>Sell Your Used TV Quickly</h2>
+<p>Whether you are upgrading, relocating, or decluttering, <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> buys used TVs in working condition. We accept all brands and sizes with instant cash payment and free pickup from anywhere in Dubai.</p>
 
 <h2>Selling Multiple TVs or Bulk Quantities</h2>
 <p>If you are a hotel manager, property landlord, office administrator, or business owner with multiple TVs to sell, we offer a specialized bulk buying service. We purchase TVs in any quantity and provide special bulk pricing. Our team handles the entire process from evaluation to removal, minimizing disruption to your operations. Contact us at ${CONTACT.phoneDisplay} to discuss bulk selling options.</p>
@@ -368,71 +368,6 @@ const blogContent: Record<string, { title: string; date: string; metaDescription
 <h2>Get the Best Smart TV Deal Today</h2>
 <p>Browse our extensive collection of used smart TVs at <a href="/service/used-tv-seller-dubai">UsedTV Dubai</a>. Call ${CONTACT.phoneDisplay} to check current inventory and availability. We offer free delivery across Dubai and extend service to <a href="/service/used-tv-seller-sharjah">Sharjah</a>, <a href="/service/used-tv-seller-ajman">Ajman</a>, and other UAE emirates. Every smart TV is fully tested with a quality guarantee.</p>`,
   },
-  "sell-broken-tv-dubai": {
-    title: "How to Sell a Broken TV in Dubai - Get Cash for Damaged TVs",
-    date: "2026-01-28",
-    metaDescription: "Sell your broken, damaged or non-working TV in Dubai for cash. We buy cracked screens, dead TVs and faulty units. Free pickup and instant payment.",
-    content: `<h2>Yes, You Can Sell Broken TVs in Dubai for Cash</h2>
-<p>Many people do not realize that <strong>broken, damaged, or non-working TVs</strong> still have significant value. Whether your television has a cracked screen, will not turn on, has display issues, or suffered water damage, there are buyers willing to pay cash for it. <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> purchases TVs in all conditions, including completely non-functional units, and offers free pickup with instant cash payment.</p>
-<p>The reason broken TVs retain value is that they contain numerous reusable components. Modern televisions are complex electronic devices with multiple internal boards, LED backlight strips, speakers, power supplies, and structural components that can be harvested and used to repair other TVs. Even a TV with a completely shattered screen has a power board, main board, T-con board, and speakers that may be in perfect working condition and worth hundreds of dirhams.</p>
-<p>Instead of letting a broken TV take up space in your home or paying for disposal, you can sell it to a professional buyer and walk away with cash in your pocket. The process is simple, fast, and completely hassle-free.</p>
-
-<h2>What Counts as a "Broken" TV?</h2>
-<p>We buy TVs with virtually any type of damage or defect. Here are the most common conditions we encounter:</p>
-<ul>
-<li><strong>Cracked or shattered screen:</strong> Physical damage to the display panel, whether from impact, dropping, or pressure. This is the most common type of TV damage and even severely cracked screens have parts value.</li>
-<li><strong>No display (black screen with sound):</strong> The TV turns on and produces sound but shows no picture. This usually indicates a backlight, T-con board, or display panel issue. TVs with this condition are particularly valuable because many components are still functional.</li>
-<li><strong>Dead TV (will not turn on):</strong> The TV shows no response when pressing the power button. This could be a power supply issue, main board failure, or a blown fuse. These TVs still have significant parts value.</li>
-<li><strong>Dead pixels or burn-in:</strong> Large areas of dead pixels or severe burn-in (especially on OLED panels). While this renders the TV undesirable as a viewing device, the internal components remain valuable.</li>
-<li><strong>Backlight failure:</strong> Some or all of the backlight strips have failed, resulting in a dim display or dark patches. This is one of the most repairable issues, making these TVs particularly valuable to refurbishers.</li>
-<li><strong>Water or humidity damage:</strong> Exposure to water, flooding, or high humidity has damaged internal components. The extent of damage varies, and some components may still be salvageable.</li>
-<li><strong>Power surge damage:</strong> Electrical surges or lightning strikes have damaged the TV's electronics. Power supplies and main boards are the most commonly affected components.</li>
-<li><strong>Physical frame damage:</strong> Dents, cracks, or breaks in the plastic bezel or back panel. If the screen and internals are fine, these TVs can often be fully refurbished.</li>
-</ul>
-
-<h2>How Much Can You Get for a Broken TV?</h2>
-<p>The price for a broken TV depends on several factors including the brand, screen size, model year, type of damage, and which components are still functional. Here are general price ranges for broken TVs in Dubai:</p>
-<ul>
-<li><strong>32-inch broken TV:</strong> AED 30 to AED 150</li>
-<li><strong>43-inch broken TV:</strong> AED 50 to AED 250</li>
-<li><strong>55-inch broken TV:</strong> AED 100 to AED 400</li>
-<li><strong>65-inch broken TV:</strong> AED 150 to AED 600</li>
-<li><strong>75-inch+ broken TV:</strong> AED 200 to AED 800</li>
-</ul>
-<p>Premium brands like Samsung, LG, and Sony command higher prices even when broken because their replacement parts are in higher demand. OLED panels, even with burn-in, have value for their unique components. Newer model TVs with common, repairable issues (like backlight failure) fetch the highest prices among broken units.</p>
-
-<h2>Why Broken TVs Have Value</h2>
-<p>Modern televisions are assembled from numerous individual components, many of which can be harvested and reused:</p>
-<ul>
-<li><strong>Power supply boards:</strong> These convert AC power to the DC voltages needed by the TV. They are one of the most commonly failing components and replacement boards are always in demand.</li>
-<li><strong>Main boards (motherboards):</strong> The central processing unit of the TV that handles input signals, smart features, and display processing. Working main boards from popular models are highly valuable.</li>
-<li><strong>T-con boards:</strong> The timing controller that translates video signals into the format needed by the display panel. These specialized boards are essential for screen repair.</li>
-<li><strong>LED backlight strips:</strong> The light source behind the LCD panel. Individual LED strips can be replaced when they fail, making harvested strips from broken TVs valuable repair components.</li>
-<li><strong>Speakers:</strong> TV speakers rarely fail and can be reused in repairs or other projects.</li>
-<li><strong>Cables, connectors, and structural components:</strong> Internal ribbon cables, HDMI boards, and metal frames all have reuse value.</li>
-</ul>
-
-<h2>How to Sell Your Broken TV in Dubai</h2>
-<p>Selling a broken TV to UsedTV Dubai is a straightforward process:</p>
-<ol>
-<li><strong>Call or WhatsApp us</strong> at ${CONTACT.phoneDisplay}. Describe your TV including the brand, model, screen size, and what is wrong with it. Photos of the damage are helpful but not required.</li>
-<li><strong>Receive a quote:</strong> Based on the information you provide, our team will give you a fair price estimate. For more accurate quotes, we may ask additional questions about the specific symptoms.</li>
-<li><strong>Schedule free pickup:</strong> We arrange a pickup time at your convenience. Our team covers all areas of Dubai and extends to <a href="/service/used-tv-buyer-sharjah">Sharjah</a>, <a href="/service/used-tv-buyer-ajman">Ajman</a>, and other emirates.</li>
-<li><strong>Get instant cash:</strong> When our team arrives, they briefly inspect the TV to confirm the condition and pay you cash on the spot. You do not need to disconnect, unmount, or move the TV yourself.</li>
-</ol>
-
-<h2>Tips for Selling Your Broken TV</h2>
-<ul>
-<li><strong>Do not attempt DIY repairs</strong> unless you are experienced. Improper repair attempts can cause additional damage and reduce the TV's value.</li>
-<li><strong>Keep the remote and accessories</strong> even if the TV is broken. These items have independent value.</li>
-<li><strong>Do not dispose of a broken TV</strong> in regular waste. TVs contain hazardous materials that require proper recycling. Selling to us ensures responsible handling.</li>
-<li><strong>Sell sooner rather than later.</strong> Parts from older models become less valuable as demand decreases over time.</li>
-</ul>
-
-<h2>Bulk Broken TV Buying</h2>
-<p>If you are a repair shop, electronics recycler, hotel, or property manager with multiple broken TVs, we offer bulk purchasing with special pricing. Contact us to discuss your specific situation.</p>
-<p>Have a working TV to sell instead? Visit our <a href="/service/used-tv-buyer-dubai">used TV buyer page</a> for working TVs, or browse our <a href="/blogs/how-to-sell-used-tv-dubai">complete selling guide</a>.</p>`,
-  },
   "used-oled-tv-dubai-guide": {
     title: "Used OLED TV Buying Guide for Dubai - Everything You Need to Know",
     date: "2026-01-20",
@@ -673,7 +608,7 @@ const blogContent: Record<string, { title: string; date: string; metaDescription
 <h2>How to Shop Eco-Friendly for Electronics in Dubai</h2>
 <ul>
 <li><strong>Buy used first:</strong> Before purchasing any electronic device new, check the used market. You may find the exact model you want at a fraction of the price. Start at <a href="/service/used-tv-seller-dubai">UsedTV Dubai</a>.</li>
-<li><strong>Sell instead of discard:</strong> When upgrading, sell your old electronics through <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> rather than throwing them away. Even broken TVs have value. See our <a href="/blogs/sell-broken-tv-dubai">broken TV buying guide</a>.</li>
+<li><strong>Sell instead of discard:</strong> When upgrading, sell your old electronics through <a href="/service/used-tv-buyer-dubai">UsedTV Dubai</a> rather than throwing them away. Used TVs in working condition have great resale value.</li>
 <li><strong>Choose energy-efficient models:</strong> When buying used, newer models tend to be more energy-efficient. An energy-efficient TV saves both money and carbon emissions over its remaining lifespan.</li>
 <li><strong>Proper disposal:</strong> If an electronic device is truly beyond use, take it to a certified e-waste recycling center rather than putting it in regular trash.</li>
 <li><strong>Spread awareness:</strong> Share the benefits of buying used with friends, family, and colleagues. The more people participate in the circular economy, the greater the environmental impact.</li>
