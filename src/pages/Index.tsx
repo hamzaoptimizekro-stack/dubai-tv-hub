@@ -103,13 +103,13 @@ const websiteSchema = {
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Buy & Sell Used TVs in Dubai, UAE - Best Prices | UsedTV Dubai",
+  name: "Used TV Dubai | Buy & Sell Working TVs UAE",
   url: `${SITE_URL}/`,
-  description: "Dubai's #1 trusted dealer for buying and selling used TVs. Samsung, LG, Sony & all brands. Instant cash, free pickup, quality tested. Call +971 55 734 9696.",
+  description: `Buy or sell working used TVs in Dubai and UAE. Samsung, LG, Sony, TCL and more with free pickup, instant cash and WhatsApp quotes at ${CONTACT.phoneDisplay}.`,
   isPartOf: { "@type": "WebSite", "@id": SITE_URL },
   about: { "@type": "Thing", name: "Used Television Trading in Dubai UAE" },
   datePublished: "2024-01-01",
-  dateModified: "2026-03-08",
+  dateModified: "2026-04-28",
   inLanguage: "en",
   primaryImageOfPage: { "@type": "ImageObject", url: `${SITE_URL}/hero-bg.jpg` },
 };
@@ -142,8 +142,8 @@ export default function Index() {
   return (
     <>
       <Helmet>
-        <title>Buy & Sell Used TVs in Dubai, UAE - Best Prices | UsedTV Dubai</title>
-        <meta name="description" content="Dubai's #1 trusted dealer for buying and selling used TVs. Samsung, LG, Sony & all brands. Instant cash, free pickup, quality tested. Call +971 55 734 9696." />
+        <title>Used TV Dubai | Buy & Sell Working TVs UAE</title>
+        <meta name="description" content={`Buy or sell working used TVs in Dubai and UAE. Samsung, LG, Sony, TCL and more with free pickup, instant cash and WhatsApp quotes at ${CONTACT.phoneDisplay}.`} />
         <link rel="canonical" href={`${SITE_URL}/`} />
       </Helmet>
       <SchemaMarkup />
@@ -164,13 +164,13 @@ export default function Index() {
         <div className="container relative">
           <div className="max-w-3xl animate-fade-in-up">
             <div className="verified-badge mb-6 bg-primary-foreground/15 text-primary-foreground">
-              <BadgeCheck className="w-4 h-4" /> Verified & Licensed Business - 7+ Years in Dubai
+              <BadgeCheck className="w-4 h-4" /> Licensed Used TV Buyer & Seller in Dubai
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-              Buy & Sell Used TVs in Dubai, UAE - Best Prices Guaranteed
+              Used TV Buyer and Seller in Dubai, UAE
             </h1>
             <p className="text-lg md:text-xl opacity-90 mb-8 leading-relaxed max-w-2xl">
-              Dubai's #1 trusted destination for buying and selling used televisions. We buy all brands - Samsung, LG, Sony, TCL & more. Instant cash, free pickup, and same-day service across UAE.
+              Sell your working TV for instant cash or buy a quality-tested second-hand TV at a fair price. We deal in Samsung, LG, Sony, TCL, Hisense and more with free pickup, quick WhatsApp quotes and same-day service across the UAE.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${CONTACT.phone}`} className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-primary-foreground text-primary font-bold hover:opacity-90 transition-opacity">
