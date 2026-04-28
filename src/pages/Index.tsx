@@ -210,29 +210,29 @@ export default function Index() {
       {/* Main SEO Content */}
       <section className="section-padding">
         <div className="container container-narrow prose-seo">
-          <h2 className="heading-highlight">Used TV for Sale in Dubai - Your Complete Guide to Buying Second-Hand Televisions in UAE</h2>
+          <h2 className="heading-highlight">Used TV Dubai - Trusted Place to Buy and Sell Working TVs</h2>
           <p>
-            Are you looking for a <strong>used TV for sale in Dubai</strong>? Whether you are searching for a budget-friendly television for your apartment, a large screen for your living room, or a premium brand like Samsung, LG, or Sony at a fraction of the original cost, UsedTV Dubai is your ultimate destination. We are the UAE's most trusted platform for buying and selling <strong>second-hand televisions in Dubai</strong>, Sharjah, Ajman, and across the Emirates.
+            Looking for a reliable <strong>used TV buyer in Dubai</strong> or a clean <strong>used TV for sale in Dubai</strong>? UsedTV Dubai helps residents, families, offices, hotels and moving customers buy and sell working televisions without stress. We focus only on used TVs in working condition, with clear picture, functional sound and proper basic operation.
           </p>
           <p>
-            With over <strong>7 years of experience</strong> in the used home appliance market and 12 successful businesses operating under the same niche, our founder <strong>{CONTACT.owner}</strong> has built a reputation that thousands of UAE residents trust. Our showroom is conveniently located at <strong>{CONTACT.address}</strong>.
+            Our team checks every TV carefully before purchase or resale, so sellers receive a fair market offer and buyers get a quality-tested television for their home, apartment, shop, staff accommodation or furnished property. With <strong>7+ years of experience</strong> in used home appliances, founder <strong>{CONTACT.owner}</strong> has built a trusted local service from our showroom at <strong>{CONTACT.address}</strong>.
           </p>
 
-          <h2 className="heading-highlight">Why Buy a Used TV in Dubai?</h2>
+          <h2 className="heading-highlight">Why People Buy Used TVs in Dubai</h2>
           <p>
-            Dubai is a city of rapid upgrades. Many residents and expats frequently upgrade their electronics, leaving perfectly functional televisions available at significantly reduced prices. Buying a <strong>used TV in Dubai</strong> is not just about saving money - it is about smart, sustainable consumption. Here is why thousands of people choose to buy <strong>pre-owned televisions in UAE</strong>:
+            Dubai has a fast-moving electronics market. Many residents upgrade from LED to OLED, from 43-inch to 65-inch, or from regular TV to Smart TV while the previous television is still in good condition. That creates strong demand for <strong>second-hand TVs in Dubai</strong> because buyers can save money and still enjoy modern features.
           </p>
           <ul>
-            <li><strong>Save 40-70% off retail prices</strong> - Get premium brands at a fraction of the cost of brand new TVs in Dubai malls.</li>
-            <li><strong>Quality tested & verified</strong> - Every TV at UsedTV Dubai goes through a rigorous 15-point inspection before being listed for sale.</li>
-            <li><strong>Wide selection of brands and sizes</strong> - From 32-inch LED TVs to 85-inch OLED and QLED displays, we carry all sizes and technologies.</li>
-            <li><strong>Eco-friendly choice</strong> - Reduce electronic waste by giving a quality television a second life instead of buying new.</li>
-            <li><strong>Perfect for short-term stays</strong> - Ideal for expats, students, and temporary residents who need affordable electronics without long-term commitments.</li>
+            <li><strong>Lower cost</strong> - Get a good branded TV for less than the price of a new showroom model.</li>
+            <li><strong>Tested condition</strong> - We check screen, sound, ports, remote response and smart features before selling.</li>
+            <li><strong>Popular sizes available</strong> - Choose from compact 32-inch TVs to large 55, 65, 75 and 85-inch displays.</li>
+            <li><strong>Useful for rentals</strong> - Ideal for tenants, holiday homes, offices, staff rooms and temporary accommodation.</li>
+            <li><strong>Better value</strong> - Many branded TVs still perform very well even after light previous use.</li>
           </ul>
 
-          <h2 className="heading-highlight">Best Used TV Brands Available in Dubai</h2>
+          <h2 className="heading-highlight">Best Used TV Brands We Buy and Sell</h2>
           <p>
-            At UsedTV Dubai, we stock all major television brands that are popular in the UAE market. Whether you are looking for a <strong>used Samsung TV in Dubai</strong>, a <strong>second-hand LG TV</strong>, or an affordable <strong>Sony Bravia</strong>, we have it all. Our inventory includes:
+            Brand, model and screen technology matter when buying or selling a used television. We regularly deal in high-demand UAE models including <strong>used Samsung TVs</strong>, <strong>LG OLED TVs</strong>, <strong>Sony Bravia TVs</strong>, TCL Smart TVs, Hisense UHD TVs and other popular brands.
           </p>
           <ul>
             <li><strong>Samsung</strong> - Crystal UHD, QLED, Neo QLED, The Frame, Smart TV series</li>
@@ -243,12 +243,12 @@ export default function Index() {
             <li><strong>Toshiba, Panasonic, Philips, Sharp, Skyworth</strong> - Various models and sizes</li>
           </ul>
           <p>
-            Every television is thoroughly tested for picture quality, sound output, connectivity (HDMI, USB, Wi-Fi, Bluetooth), smart features, and overall functionality. We provide a <strong>limited warranty on select models</strong> to give you complete peace of mind.
+            Every television is checked for picture quality, sound output, HDMI and USB ports, Wi-Fi, Bluetooth, smart apps and general functionality. We provide a <strong>limited warranty on select models</strong> and honest guidance so you can choose the right screen size and model for your budget.
           </p>
 
-          <h2 className="heading-highlight">How to Sell Your Used TV in Dubai - Get Instant Cash Today</h2>
+          <h2 className="heading-highlight">Sell Your Working Used TV in Dubai for Instant Cash</h2>
           <p>
-            Planning to <strong>sell your used TV in Dubai</strong>? We make the process incredibly simple. Whether you have a working TV you want to upgrade from, or even a damaged television taking up space, we will buy it. Here is how our streamlined selling process works:
+            Planning to <strong>sell your used TV in Dubai</strong>? We make the process simple for working televisions. Send us the brand, model, screen size, age and clear photos or videos on WhatsApp. If the TV turns on, shows a proper picture and has working sound, our team can make a fair offer and arrange pickup.
           </p>
           <ol>
             <li><strong>Contact us</strong> - Call or WhatsApp us at {CONTACT.phoneDisplay} with details about your TV (brand, model, size, condition, and age).</li>
