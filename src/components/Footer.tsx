@@ -86,6 +86,9 @@ export default function Footer() {
             <Link to="/sitemap.xml" className="hover:text-accent">Sitemap</Link>
           </div>
         </div>
+        <div className="mt-4 text-center text-xs opacity-50">
+          <p>Managed and SEO by <a href="https://seoing.org" target="_blank" rel="noopener noreferrer" className="hover:text-accent font-semibold">SEOING</a> {seoing.org}</p>
+        </div>
       </div>
     </footer>
   );
