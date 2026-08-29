@@ -1,4 +1,7 @@
 import { CONTACT } from "@/config/site";
+import tvElectricityCalculatorHero from "@/assets/blog-tv-electricity-calculator-hero.jpg";
+import tvHourlyCostCalculator from "@/assets/blog-tv-hourly-cost-calculator.jpg";
+import tvPowerComparison from "@/assets/blog-tv-power-comparison.jpg";
 
 export interface BlogFaq {
   question: string;
@@ -3397,5 +3400,149 @@ export const newBlogContent: Record<string, BlogEntry> = {
 <h2>Buy a Used Samsung 8K from UsedTV Dubai</h2>
 <p>The world's finest TV at used prices saving up to 70 percent. Free delivery and professional installation across UAE.</p>
 <p><strong>Call <a href="tel:${CONTACT.phone}">${CONTACT.phoneDisplay}</a> or <a href="${CONTACT.whatsapp}">WhatsApp us</a> for 8K availability.</strong> These sell quickly. Sell your current TV for <a href="/service/used-tv-buyer-dubai">instant cash</a> and upgrade to 8K luxury.</p>`,
+  },
+  "tv-electricity-cost-calculator-hourly-dubai": {
+    title: "TV Electricity Cost Calculator - How Much Does Your TV Cost Per Hour in Dubai?",
+    date: "2026-08-29",
+    metaDescription: "Free TV electricity cost calculator guide for Dubai and UAE. Calculate your TV's hourly, daily, and monthly electricity cost in AED using DEWA tariffs. LED, OLED, QLED power costs explained.",
+    faqs: [
+      { question: "How much electricity does a TV use per hour in Dubai?", answer: "A typical 55-inch LED TV uses 60 to 100 watts per hour, costing roughly 1.4 to 2.4 fils per hour at DEWA's lowest slab rate of AED 0.23 per kWh. OLED TVs of the same size use 90 to 150 watts (2 to 3.5 fils per hour), while large 75-inch QLED TVs can use 150 to 250 watts (3.5 to 5.8 fils per hour)." },
+      { question: "How do I calculate my TV's electricity cost?", answer: "Use this simple formula: (TV wattage / 1000) x hours used x DEWA rate per kWh. For example, a 100W TV running 6 hours daily at AED 0.23 per kWh costs 100/1000 x 6 x 0.23 = AED 0.138 per day, about AED 4.14 per month." },
+      { question: "What is the DEWA electricity rate per kWh in 2026?", answer: "DEWA residential electricity tariffs are slab-based: AED 0.23 per kWh for 0 to 2000 kWh monthly consumption, AED 0.28 per kWh for 2001 to 4000 kWh, and AED 0.32 per kWh for 4001 to 6000 kWh. A fuel surcharge of approximately AED 0.06 per kWh also applies." },
+      { question: "Does a 4K TV use more electricity than a Full HD TV?", answer: "Not necessarily. Screen size and display technology matter more than resolution. A modern 55-inch 4K LED TV often uses less power than an older 55-inch Full HD LCD because LED backlighting technology has become far more efficient over the years." },
+      { question: "Which TV type is cheapest to run per hour?", answer: "LED and QLED TVs are the cheapest to run, typically 30 to 50 percent more efficient than OLED at the same size. A 55-inch LED TV costs about 1.5 fils per hour, while a 55-inch OLED costs about 2.5 fils per hour. Older plasma TVs are the most expensive, sometimes using 300 to 500 watts." },
+      { question: "How much does a TV add to my monthly DEWA bill?", answer: "For average viewing of 5 to 6 hours daily, a 55-inch LED TV adds approximately AED 4 to 7 per month, an OLED adds AED 6 to 12, and a large 75-inch TV adds AED 8 to 15. Even heavy TV users rarely spend more than AED 20 per month on TV electricity alone." },
+      { question: "Does standby mode consume electricity?", answer: "Yes. Modern TVs in standby mode use 0.5 to 3 watts. That is only about AED 0.10 to 0.50 per month, but older TVs can use 5 to 10 watts in standby. Switching off at the wall socket eliminates standby consumption completely." },
+      { question: "Are used TVs less energy efficient than new ones?", answer: "Used TVs from 2018 onwards have very similar efficiency to new models. TVs older than 10 years, especially plasma and early LCD models, can use two to three times more electricity. When buying a used TV in Dubai, choosing a model from 2018 or newer keeps running costs minimal." },
+    ],
+    content: `<img src="${tvElectricityCalculatorHero}" alt="TV electricity cost calculator showing hourly power usage in a Dubai living room" width="1280" height="720" loading="lazy" />
+<h2>Introduction: Why Everyone in Dubai Is Searching for a TV Electricity Calculator</h2>
+<p>Every month when the DEWA bill arrives, thousands of Dubai residents ask the same question: how much of this bill is my TV responsible for? With televisions running five, six, or even ten hours a day in many households, understanding your TV electricity cost per hour has become one of the most searched topics among UAE residents trying to manage their monthly expenses.</p>
+<p>The good news is that calculating your TV's electricity cost is simple once you know three numbers: your TV's wattage, how many hours you watch, and the DEWA rate per kilowatt hour. In this complete guide, we give you a ready-to-use TV electricity cost calculator, hourly cost tables for every TV size and type, and practical tips to cut your TV power consumption without giving up your favourite shows.</p>
+<p>Whether you own a brand new OLED or a <a href="/service/used-tv-seller-dubai">quality used TV from our Dubai showroom</a>, this guide will show you exactly what your screen costs you every hour, every day, and every month in AED.</p>
+
+<h2>The TV Electricity Cost Calculator Formula</h2>
+<p>Here is the simple formula that every TV electricity calculator uses, including the DEWA calculator itself:</p>
+<p><strong>Hourly Cost = (TV Wattage / 1000) x DEWA Rate per kWh</strong></p>
+<p>To get daily and monthly figures, simply multiply by your usage:</p>
+<ul>
+<li><strong>Daily Cost:</strong> Hourly cost x hours watched per day</li>
+<li><strong>Monthly Cost:</strong> Daily cost x 30 days</li>
+<li><strong>Yearly Cost:</strong> Monthly cost x 12 months</li>
+</ul>
+<p><strong>Worked example:</strong> A 55-inch LED TV rated at 90 watts, watched 6 hours per day, at the DEWA base rate of AED 0.23 per kWh:</p>
+<ul>
+<li>Hourly: (90 / 1000) x 0.23 = <strong>AED 0.0207 (about 2 fils per hour)</strong></li>
+<li>Daily: 0.0207 x 6 = <strong>AED 0.124 per day</strong></li>
+<li>Monthly: 0.124 x 30 = <strong>AED 3.73 per month</strong></li>
+<li>Yearly: 3.73 x 12 = <strong>AED 44.70 per year</strong></li>
+</ul>
+<p>As you can see, a modern TV is one of the cheapest appliances to run in your home, far cheaper than your air conditioner, water heater, or even your refrigerator.</p>
+
+<h2>DEWA Electricity Rates You Need for the Calculator</h2>
+<p>Dubai uses a slab tariff system, which means the more total electricity your home consumes, the higher the rate per unit. Here are the residential rates to plug into your TV electricity cost calculator:</p>
+<table>
+<thead><tr><th>Monthly Consumption Slab</th><th>Rate per kWh (AED)</th><th>Applies To</th></tr></thead>
+<tbody>
+<tr><td>0 to 2,000 kWh</td><td>0.23</td><td>Most apartments and small villas</td></tr>
+<tr><td>2,001 to 4,000 kWh</td><td>0.28</td><td>Medium villas and heavy AC users</td></tr>
+<tr><td>4,001 to 6,000 kWh</td><td>0.32</td><td>Large villas</td></tr>
+<tr><td>Above 6,000 kWh</td><td>0.38</td><td>Very high consumption homes</td></tr>
+</tbody>
+</table>
+<p>In addition, DEWA applies a fuel surcharge of approximately AED 0.06 per kWh and a 5 percent VAT on the total. For quick estimates, using AED 0.25 to 0.30 per kWh gives you a realistic figure for most Dubai homes. Residents of Sharjah, Ajman, and the northern emirates served by SEWA and FEWA have similar slab-based tariffs in the same range.</p>
+
+<img src="${tvHourlyCostCalculator}" alt="Checking TV hourly electricity cost on a calculator app next to a TV remote and DEWA bill" width="1280" height="720" loading="lazy" />
+
+<h2>TV Electricity Cost Per Hour by Size (Dubai Rates)</h2>
+<p>Screen size is the single biggest factor in TV power consumption. Use this hourly cost table, calculated at AED 0.23 per kWh, as your quick-reference TV electricity calculator:</p>
+<table>
+<thead><tr><th>TV Size</th><th>Typical Wattage (LED)</th><th>Cost Per Hour</th><th>Monthly Cost (6 hrs/day)</th></tr></thead>
+<tbody>
+<tr><td>32 inch</td><td>30 - 50 W</td><td>0.7 - 1.2 fils</td><td>AED 1.25 - 2.10</td></tr>
+<tr><td>43 inch</td><td>50 - 70 W</td><td>1.2 - 1.6 fils</td><td>AED 2.10 - 2.90</td></tr>
+<tr><td>50 inch</td><td>60 - 90 W</td><td>1.4 - 2.1 fils</td><td>AED 2.50 - 3.70</td></tr>
+<tr><td>55 inch</td><td>70 - 100 W</td><td>1.6 - 2.3 fils</td><td>AED 2.90 - 4.15</td></tr>
+<tr><td>65 inch</td><td>90 - 140 W</td><td>2.1 - 3.2 fils</td><td>AED 3.75 - 5.80</td></tr>
+<tr><td>75 inch</td><td>120 - 180 W</td><td>2.8 - 4.1 fils</td><td>AED 5.00 - 7.45</td></tr>
+<tr><td>85 inch</td><td>160 - 250 W</td><td>3.7 - 5.8 fils</td><td>AED 6.60 - 10.35</td></tr>
+</tbody>
+</table>
+<p>Even the largest 85-inch TV costs less than 6 fils per hour to run. Watching an entire three-hour football match on a 75-inch screen costs roughly 10 fils, less than the price of a cup of karak tea.</p>
+
+<h2>Hourly Cost by TV Technology: LED vs OLED vs QLED</h2>
+<p>The display technology inside your TV matters almost as much as its size. Here is how the three main technologies compare for a 55-inch screen:</p>
+<table>
+<thead><tr><th>Technology</th><th>Average Wattage (55 inch)</th><th>Cost Per Hour</th><th>Monthly Cost (6 hrs/day)</th></tr></thead>
+<tbody>
+<tr><td>LED / LCD</td><td>60 - 90 W</td><td>1.4 - 2.1 fils</td><td>AED 2.50 - 3.70</td></tr>
+<tr><td>QLED</td><td>80 - 120 W</td><td>1.8 - 2.8 fils</td><td>AED 3.30 - 4.95</td></tr>
+<tr><td>OLED</td><td>90 - 150 W</td><td>2.1 - 3.5 fils</td><td>AED 3.70 - 6.20</td></tr>
+<tr><td>Neo QLED / Mini LED</td><td>100 - 160 W</td><td>2.3 - 3.7 fils</td><td>AED 4.15 - 6.60</td></tr>
+<tr><td>Older Plasma (pre-2015)</td><td>250 - 400 W</td><td>5.8 - 9.2 fils</td><td>AED 10.35 - 16.55</td></tr>
+</tbody>
+</table>
+<p>OLED TVs use more power when displaying bright scenes because every pixel generates its own light, but they can actually use less than LED TVs during dark movie scenes. QLED and standard LED models maintain more consistent consumption regardless of content. If you are upgrading from an old plasma TV, a <a href="/service/used-tv-seller-dubai">modern used LED or QLED TV</a> can cut your TV electricity cost by more than half.</p>
+
+<img src="${tvPowerComparison}" alt="LED, OLED and QLED TVs compared for power consumption with gauges" width="1280" height="720" loading="lazy" />
+
+<h2>Step-by-Step: How to Calculate Your Exact TV Cost</h2>
+<p>Follow these four steps to calculate your personal TV electricity cost per hour with complete accuracy:</p>
+<h3>Step 1: Find Your TV's Wattage</h3>
+<p>Check the label on the back of your TV for the rated power in watts (W). Alternatively, search your model number online with the word "specifications". Samsung, LG, and Sony all publish power consumption for every model. If the label shows amps (A) instead, multiply amps by 230 (UAE voltage) to get watts.</p>
+<h3>Step 2: Estimate Your Daily Viewing Hours</h3>
+<p>Be honest here. Most Dubai households watch 4 to 6 hours on weekdays and 8 to 12 hours on weekends. A TV left on as background noise counts too. Average it out to a daily number.</p>
+<h3>Step 3: Apply the Formula</h3>
+<p>Divide watts by 1000, multiply by hours, then multiply by your DEWA rate. Example: a 120W QLED TV x 8 hours daily at AED 0.28 per kWh equals AED 0.27 per day, or about AED 8 per month.</p>
+<h3>Step 4: Add Standby Consumption</h3>
+<p>Add 0.5 to 3 watts for every hour the TV sits in standby. Over a month this adds roughly AED 0.10 to 0.50 for a modern TV. Small, but worth knowing if you own several TVs.</p>
+
+<h2>What Uses More: Your TV or Other Home Appliances?</h2>
+<p>To put your TV electricity cost in perspective, here is how it compares to other common appliances in a Dubai home:</p>
+<table>
+<thead><tr><th>Appliance</th><th>Typical Wattage</th><th>Hourly Cost (AED)</th></tr></thead>
+<tbody>
+<tr><td>55-inch LED TV</td><td>90 W</td><td>0.02</td></tr>
+<tr><td>Split AC (1.5 ton)</td><td>1,500 W</td><td>0.35</td></tr>
+<tr><td>Refrigerator</td><td>150 W (average)</td><td>0.035</td></tr>
+<tr><td>Water Heater</td><td>2,000 W</td><td>0.46</td></tr>
+<tr><td>Washing Machine</td><td>500 W</td><td>0.12</td></tr>
+<tr><td>Gaming Console (PS5)</td><td>150 - 200 W</td><td>0.04</td></tr>
+<tr><td>Ceiling Fan</td><td>75 W</td><td>0.017</td></tr>
+</tbody>
+</table>
+<p>Your air conditioner costs about 17 times more per hour than your TV. If your DEWA bill is high, the AC, water heater, and washing habits deserve your attention long before the television does.</p>
+
+<h2>7 Proven Ways to Reduce Your TV Electricity Cost</h2>
+<p>Even though TVs are cheap to run, these tips can shave another 20 to 40 percent off your TV power consumption:</p>
+<ul>
+<li><strong>Lower the backlight:</strong> Reducing backlight from 100 to 60 percent can cut consumption by up to 30 percent with minimal visible difference in Dubai's bright rooms during evening viewing.</li>
+<li><strong>Enable Eco or Power Saving Mode:</strong> Every Samsung, LG, and Sony TV has an eco mode that automatically adjusts brightness to room lighting.</li>
+<li><strong>Use the sleep timer:</strong> Falling asleep with the TV running adds 4 to 8 wasted hours per night. Set a 60 or 90 minute sleep timer.</li>
+<li><strong>Turn off, do not standby:</strong> Switch off at the wall when leaving for holidays or long trips to eliminate standby drain.</li>
+<li><strong>Reduce screen brightness for HDR content:</strong> HDR pushes TVs to maximum brightness and maximum power draw. Use it for movies, not for daytime news.</li>
+<li><strong>Disable Quick Start features:</strong> Instant-on features keep the TV in a higher-power standby state consuming 10 to 20 watts instead of under 1 watt.</li>
+<li><strong>Right-size your TV:</strong> A 75-inch TV in a small bedroom uses double the power of a 50-inch. Match the screen size to the room.</li>
+</ul>
+
+<h2>Do Used TVs Cost More to Run? The Honest Answer</h2>
+<p>This is one of the most common questions we hear at <a href="/">UsedTV Dubai</a>. The honest answer is that a used TV from 2018 or newer costs essentially the same to run as a brand new model. LED efficiency improved dramatically between 2015 and 2018, and has plateaued since then. A 2019 Samsung QLED uses within 5 to 10 percent of the power of a 2026 model.</p>
+<p>Where you do pay more is with very old technology. Plasma TVs and pre-2015 LCD models with CCFL backlights can use two to three times the electricity of a modern LED. That is exactly why every TV we sell is tested, graded, and from the efficient LED era. When you buy a used TV from us, you save up to 70 percent on the purchase price without paying a single extra fils on your DEWA bill. You can also <a href="/service/used-tv-buyer-dubai">sell your old power-hungry TV to us for instant cash</a> and upgrade to an efficient model the same day.</p>
+
+<h2>Monthly TV Running Cost Examples for Real Dubai Households</h2>
+<p>Here are three realistic household scenarios using the calculator formula at AED 0.25 per kWh:</p>
+<table>
+<thead><tr><th>Household</th><th>Setup</th><th>Monthly TV Cost</th></tr></thead>
+<tbody>
+<tr><td>Bachelor apartment, International City</td><td>43-inch LED, 4 hours/day</td><td>AED 1.80 - 2.60</td></tr>
+<tr><td>Family apartment, Al Barsha</td><td>55-inch QLED + 32-inch bedroom TV, 6 hours/day</td><td>AED 6.50 - 9.00</td></tr>
+<tr><td>Villa, Arabian Ranches</td><td>75-inch OLED + two 55-inch LEDs, 8 hours/day</td><td>AED 14.00 - 19.00</td></tr>
+</tbody>
+</table>
+<p>Even a villa running three TVs for eight hours a day spends under AED 20 per month on television electricity, roughly the cost of one home-delivered coffee.</p>
+
+<h2>Conclusion: Your TV Is Cheaper to Run Than You Think</h2>
+<p>The TV electricity cost calculator tells a reassuring story: modern TVs are among the most affordable appliances to run in any Dubai home. A typical 55-inch LED costs about 2 fils per hour, and even premium large-screen OLEDs stay under 4 fils per hour at DEWA rates. Use the formula and tables in this guide any time you want to check a specific model before buying.</p>
+<p><strong>Looking for an energy-efficient TV at an unbeatable price?</strong> Browse our range of tested, working-condition <a href="/service/used-tv-seller-dubai">used LED, QLED, and OLED TVs in Dubai</a> with free delivery across the UAE. Call or WhatsApp us on <a href="tel:${CONTACT.phone}">${CONTACT.phoneDisplay}</a> for today's availability, or <a href="${CONTACT.whatsapp}">send us a WhatsApp message</a> with the model you want and we will quote you instantly. If you have an old TV to replace, <a href="/service/used-tv-buyer-dubai">we buy used TVs for instant cash</a> with free same-day pickup anywhere in Dubai, Sharjah, Ajman, and Abu Dhabi.</p>`,
   },
 };
