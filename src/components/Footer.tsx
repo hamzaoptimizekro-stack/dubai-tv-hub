@@ -87,7 +87,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-4 text-center text-xs opacity-50">
-          <p>Managed and SEO by <a href="https://seoing.org" target="_blank" rel="noopener noreferrer" className="hover:text-accent font-semibold">SEOING</a> (seoing.org)</p>
+          <p>Managed and SEO by <a href="https://www.seoing.org" target="_blank" rel="noopener noreferrer" className="hover:text-accent font-semibold">SEOING</a> (https://www.seoing.org)</p>
         </div>
       </div>
     </footer>
