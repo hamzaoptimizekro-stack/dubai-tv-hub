@@ -1,4 +1,7 @@
 import { CONTACT } from "@/config/site";
+import tvElectricityCalculatorHero from "@/assets/blog-tv-electricity-calculator-hero.jpg";
+import tvHourlyCostCalculator from "@/assets/blog-tv-hourly-cost-calculator.jpg";
+import tvPowerComparison from "@/assets/blog-tv-power-comparison.jpg";
 
 export interface BlogFaq {
   question: string;
