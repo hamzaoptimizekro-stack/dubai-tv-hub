@@ -467,7 +467,7 @@ export const newBlogContent: Record<string, BlogEntry> = {
   },
 
   "best-streaming-apps-smart-tv-uae": {
-    title: "Best Streaming Apps for Smart TV in UAE 2025 - Complete Guide",
+    title: "Best Streaming Apps for Smart TV in UAE 2026 - Complete Guide",
     date: "2026-02-22",
     metaDescription: "Complete guide to the best streaming apps available on smart TVs in the UAE. Netflix, Disney+, Shahid, OSN+, and more. Compatibility, pricing, and 4K content guide.",
     faqs: [
