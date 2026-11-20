@@ -57,6 +57,7 @@ export const blogs = [
   { slug: "samsung-qled-q80-tv-dubai-used", title: "Samsung QLED Q80 TV Dubai - Used Premium TV Buying Guide", excerpt: "Buy a used Samsung QLED Q80 TV in Dubai. Full review, pricing, and why it is worth buying used.", date: "2026-03-21", author: "Hassan Jamil" },
   { slug: "sony-a80l-oled-tv-dubai-used", title: "Sony A80L OLED TV Dubai - Used Price and Expert Review", excerpt: "Used Sony A80L OLED TV guide for Dubai. Pricing, picture quality review, and buying tips.", date: "2026-03-22", author: "Hassan Jamil" },
   { slug: "samsung-neo-qled-8k-tv-dubai-used", title: "Samsung Neo QLED 8K TV Dubai - Used Luxury TV Buying Guide", excerpt: "Buy a used Samsung Neo QLED 8K TV in Dubai. Is 8K worth it? Pricing, features, and expert advice.", date: "2026-03-23", author: "Hassan Jamil" },
+  { slug: "tv-electricity-cost-calculator-hourly-dubai", title: "TV Electricity Cost Calculator - How Much Does Your TV Cost Per Hour in Dubai?", excerpt: "Free TV electricity cost calculator for Dubai and UAE. Calculate your TV's hourly, daily, and monthly electricity cost in AED using DEWA rates.", date: "2026-08-29", author: "Hassan Jamil" },
 ];
 
 const breadcrumbSchema = {
